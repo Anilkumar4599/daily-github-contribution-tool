@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 1,
+    "domain": "Python",
+    "task": "Create a Python script that reads a CSV file and prints the number of rows and columns.",
+    "quality_check": "Use a small sample dataset and document your assumptions."
+  },
+  {
+    "id": 2,
+    "domain": "Python",
+    "task": "Write a Python function that finds duplicate values in a list.",
+    "quality_check": "Add input validation and a short README."
+  },
+  {
+    "id": 3,
+    "domain": "Python",
+    "task": "Create a script that calculates total, average, minimum and maximum from a list of numbers.",
+    "quality_check": "Include at least three test cases."
+  },
+  {
+    "id": 4,
+    "domain": "Python",
+    "task": "Write a Python program that counts the frequency of each word in a text file.",
+    "quality_check": "Add an example input and expected output."
+  },
+  {
+    "id": 5,
+    "domain": "Python",
+    "task": "Create a script that renames files in a folder using a consistent naming pattern.",
+    "quality_check": "Keep the implementation simple and explain the logic."
+  },
+  {
+    "id": 6,
+    "domain": "Python",
+    "task": "Write a Python function to validate an email address using basic string rules.",
+    "quality_check": "Use a small sample dataset and document your assumptions."
+  },
+  {
+    "id": 7,
+    "domain": "Python",
+    "task": "Create a script that converts an Excel-style table exported as CSV into a summary report.",
+    "quality_check": "Add input validation and a short README."
+  },
+  {
+    "id": 8,
+    "domain": "Python",
+    "task": "Write a function that identifies missing values in a CSV column.",
+    "quality_check": "Include at least three test cases."
+  },
+  {
+    "id": 9,
+    "domain": "Python",
+    "task": "Create a simple inventory reorder-level calculator.",
+    "quality_check": "Add an example input and expected output."
+  },
+  {
+    "id": 10,
+    "domain": "Python",
+    "task": "Build a Python script that compares two CSV files and reports new, missing and changed records.",
+    "quality_check": "Keep the implementation simple and explain the logic."
+  },
+  {
+    "id": 11,
+    "domain": "Automation",
+    "task": "Create a purchase-order follow-up tracker from a sample CSV.",
+    "quality_check": "Use a small sample dataset and document your assumptions."
+  },
+  {
+    "id": 12,
+    "domain": "Automation",
+    "task": "Build a script that generates a vendor follow-up email draft from PO data.",
+    "quality_check": "Add input validation and a short README."
+  },
+  {
+    "id": 13,
+    "domain": "Automation",
+    "task": "Create a material aging report showing items pending for more than 7 days.",
+    "quality_check": "Include at least three test cases."
+  },
+  {
+    "id": 14,
+    "domain": "Automation",
+    "task": "Build a script that flags overdue procurement items based on credit time.",
+    "quality_check": "Add an example input and expected output."
+  },
+  {
+    "id": 15,
+    "domain": "Automation",
+    "task": "Create an inventory low-stock alert report.",
+    "quality_check": "Keep the implementation simple and explain the logic."
+  },
+  {
+    "id": 16,
+    "domain": "Automation",
+    "task": "Build a daily shipment summary from sample shipment data.",
+    "quality_check": "Use a small sample dataset and document your assumptions."
+  },
+  {
+    "id": 17,
+    "domain": "Automation",
+    "task": "Create a spare-outward summary grouped by item.",
+    "quality_check": "Add input validation and a short README."
+  },
+  {
+    "id": 18,
+    "domain": "Automation",
+    "task": "Build a defect summary grouped by device type.",
+    "quality_check": "Include at least three test cases."
+  },
+  {
+    "id": 19,
+    "domain": "Automation",
+    "task": "Create a simple ticket-aging report.",
+    "quality_check": "Add an example input and expected output."
+  },
+  {
+    "id": 20,
+    "domain": "Automation",
+    "task": "Build a weekly management summary generator from CSV data.",
+    "quality_check": "Keep the implementation simple and explain the logic."
+  },
+  {
+    "id": 21,
+    "domain": "AI",
+    "task": "Create a markdown file containing 10 prompts for procurement analysis.",
+    "quality_check": "Use a small sample dataset and document your assumptions."
+  },
+  {
+    "id": 22,
+    "domain": "AI",
+    "task": "Create 10 prompts for QC defect analysis.",
+    "quality_check": "Add input validation and a short README."
+  },
+  {
+    "id": 23,
+    "domain": "AI",
+    "task": "Create 10 prompts for management-report generation.",
+    "quality_check": "Include at least three test cases."
+  },
+  {
+    "id": 24,
+    "domain": "AI",
+    "task": "Create a reusable RCTO prompt template.",
+    "quality_check": "Add an example input and expected output."
+  },
+  {
+    "id": 25,
+    "domain": "AI",
+    "task": "Create a prompt that converts raw Excel data into an executive summary.",
+    "quality_check": "Keep the implementation simple and explain the logic."
+  },
+  {
+    "id": 26,
+    "domain": "AI",
+    "task": "Create a prompt for identifying procurement risks without inventing missing information.",
+    "quality_check": "Use a small sample dataset and document your assumptions."
+  },
+  {
+    "id": 27,
+    "domain": "AI",
+    "task": "Create a prompt for analyzing vendor delivery performance.",
+    "quality_check": "Add input validation and a short README."
+  },
+  {
+    "id": 28,
+    "domain": "AI",
+    "task": "Create a prompt for identifying recurring hardware defects.",
+    "quality_check": "Include at least three test cases."
+  },
+  {
+    "id": 29,
+    "domain": "AI",
+    "task": "Create a prompt for turning meeting notes into action items.",
+    "quality_check": "Add an example input and expected output."
+  },
+  {
+    "id": 30,
+    "domain": "AI",
+    "task": "Document 5 practical ways AI can reduce manual Excel work.",
+    "quality_check": "Keep the implementation simple and explain the logic."
+  },
+  {
+    "id": 31,
+    "domain": "Git",
+    "task": "Create a README explaining your Git branching strategy.",
+    "quality_check": "Use a small sample dataset and document your assumptions."
+  },
+  {
+    "id": 32,
+    "domain": "Git",
+    "task": "Practice creating a feature branch and document the commands used.",
+    "quality_check": "Add input validation and a short README."
+  },
+  {
+    "id": 33,
+    "domain": "Git",
+    "task": "Create a Git cheat sheet for your own future reference.",
+    "quality_check": "Include at least three test cases."
+  },
+  {
+    "id": 34,
+    "domain": "Git",
+    "task": "Document the difference between git add, commit, pull and push.",
+    "quality_check": "Add an example input and expected output."
+  },
+  {
+    "id": 35,
+    "domain": "Git",
+    "task": "Create a CONTRIBUTING.md file for one of your repositories.",
+    "quality_check": "Keep the implementation simple and explain the logic."
+  },
+  {
+    "id": 36,
+    "domain": "Git",
+    "task": "Create a .gitignore suitable for a Python project.",
+    "quality_check": "Use a small sample dataset and document your assumptions."
+  },
+  {
+    "id": 37,
+    "domain": "Git",
+    "task": "Document how to recover from an accidental local change using Git.",
+    "quality_check": "Add input validation and a short README."
+  },
+  {
+    "id": 38,
+    "domain": "Git",
+    "task": "Create a Git workflow diagram in markdown.",
+    "quality_check": "Include at least three test cases."
+  },
+  {
+    "id": 39,
+    "domain": "Git",
+    "task": "Document 10 useful Git Bash commands.",
+    "quality_check": "Add an example input and expected output."
+  },
+  {
+    "id": 40,
+    "domain": "Git",
+    "task": "Review an old project and improve its README.",
+    "quality_check": "Keep the implementation simple and explain the logic."
+  },
+  {
+    "id": 41,
+    "domain": "QC",
+    "task": "Create a sample defect classification table for ATM surveillance devices.",
+    "quality_check": "Use a small sample dataset and document your assumptions."
+  },
+  {
+    "id": 42,
+    "domain": "QC",
+    "task": "Build a defect Pareto analysis using sample data.",
+    "quality_check": "Add input validation and a short README."
+  },
+  {
+    "id": 43,
+    "domain": "QC",
+    "task": "Create a device-wise defect rate calculator.",
+    "quality_check": "Include at least three test cases."
+  },
+  {
+    "id": 44,
+    "domain": "QC",
+    "task": "Create a QC daily summary template in markdown.",
+    "quality_check": "Add an example input and expected output."
+  },
+  {
+    "id": 45,
+    "domain": "QC",
+    "task": "Build a first-pass-yield calculation example.",
+    "quality_check": "Keep the implementation simple and explain the logic."
+  },
+  {
+    "id": 46,
+    "domain": "QC",
+    "task": "Create a recurring-defect tracker.",
+    "quality_check": "Use a small sample dataset and document your assumptions."
+  },
+  {
+    "id": 47,
+    "domain": "QC",
+    "task": "Create a root-cause analysis template.",
+    "quality_check": "Add input validation and a short README."
+  },
+  {
+    "id": 48,
+    "domain": "QC",
+    "task": "Build a rework tracking table.",
+    "quality_check": "Include at least three test cases."
+  },
+  {
+    "id": 49,
+    "domain": "QC",
+    "task": "Create a QC KPI definition document.",
+    "quality_check": "Add an example input and expected output."
+  },
+  {
+    "id": 50,
+    "domain": "QC",
+    "task": "Create a sample corrective-action tracker.",
+    "quality_check": "Keep the implementation simple and explain the logic."
+  },
+  {
+    "id": 51,
+    "domain": "Inventory",
+    "task": "Create an inventory aging report.",
+    "quality_check": "Use a small sample dataset and document your assumptions."
+  },
+  {
+    "id": 52,
+    "domain": "Inventory",
+    "task": "Build a stock-in versus stock-out summary.",
+    "quality_check": "Add input validation and a short README."
+  },
+  {
+    "id": 53,
+    "domain": "Inventory",
+    "task": "Create an inventory reconciliation checklist.",
+    "quality_check": "Include at least three test cases."
+  },
+  {
+    "id": 54,
+    "domain": "Inventory",
+    "task": "Build an item-wise consumption report.",
+    "quality_check": "Add an example input and expected output."
+  },
+  {
+    "id": 55,
+    "domain": "Inventory",
+    "task": "Create a minimum-stock and maximum-stock calculator.",
+    "quality_check": "Keep the implementation simple and explain the logic."
+  },
+  {
+    "id": 56,
+    "domain": "Inventory",
+    "task": "Build a monthly inventory KPI report.",
+    "quality_check": "Use a small sample dataset and document your assumptions."
+  },
+  {
+    "id": 57,
+    "domain": "Inventory",
+    "task": "Create a slow-moving inventory report.",
+    "quality_check": "Add input validation and a short README."
+  },
+  {
+    "id": 58,
+    "domain": "Inventory",
+    "task": "Create a damaged-item tracking template.",
+    "quality_check": "Include at least three test cases."
+  },
+  {
+    "id": 59,
+    "domain": "Inventory",
+    "task": "Build a spare request versus outward analysis.",
+    "quality_check": "Add an example input and expected output."
+  },
+  {
+    "id": 60,
+    "domain": "Inventory",
+    "task": "Create an inventory audit checklist.",
+    "quality_check": "Keep the implementation simple and explain the logic."
+  },
+  {
+    "id": 61,
+    "domain": "Power BI",
+    "task": "Create a sample dataset for a procurement dashboard.",
+    "quality_check": "Use a small sample dataset and document your assumptions."
+  },
+  {
+    "id": 62,
+    "domain": "Power BI",
+    "task": "Document 10 useful procurement dashboard KPIs.",
+    "quality_check": "Add input validation and a short README."
+  },
+  {
+    "id": 63,
+    "domain": "Power BI",
+    "task": "Create a data dictionary for a QC dashboard.",
+    "quality_check": "Include at least three test cases."
+  },
+  {
+    "id": 64,
+    "domain": "Power BI",
+    "task": "Design a shipment dashboard layout in markdown.",
+    "quality_check": "Add an example input and expected output."
+  },
+  {
+    "id": 65,
+    "domain": "Power BI",
+    "task": "Document useful DAX measures for inventory analysis.",
+    "quality_check": "Keep the implementation simple and explain the logic."
+  },
+  {
+    "id": 66,
+    "domain": "Power BI",
+    "task": "Create a sample management dashboard specification.",
+    "quality_check": "Use a small sample dataset and document your assumptions."
+  },
+  {
+    "id": 67,
+    "domain": "Power BI",
+    "task": "Create a defect dashboard requirements document.",
+    "quality_check": "Add input validation and a short README."
+  },
+  {
+    "id": 68,
+    "domain": "Power BI",
+    "task": "Create a vendor performance dashboard specification.",
+    "quality_check": "Include at least three test cases."
+  },
+  {
+    "id": 69,
+    "domain": "Power BI",
+    "task": "Create a shipment SLA dashboard specification.",
+    "quality_check": "Add an example input and expected output."
+  },
+  {
+    "id": 70,
+    "domain": "Power BI",
+    "task": "Document a Power BI data-cleaning checklist.",
+    "quality_check": "Keep the implementation simple and explain the logic."
+  },
+  {
+    "id": 71,
+    "domain": "AWS",
+    "task": "Document the architecture of a simple AWS monitoring solution.",
+    "quality_check": "Use a small sample dataset and document your assumptions."
+  },
+  {
+    "id": 72,
+    "domain": "AWS",
+    "task": "Create an AWS services cheat sheet for beginners.",
+    "quality_check": "Add input validation and a short README."
+  },
+  {
+    "id": 73,
+    "domain": "AWS",
+    "task": "Document a simple EC2 monitoring project.",
+    "quality_check": "Include at least three test cases."
+  },
+  {
+    "id": 74,
+    "domain": "AWS",
+    "task": "Create a cloud cost-optimization checklist.",
+    "quality_check": "Add an example input and expected output."
+  },
+  {
+    "id": 75,
+    "domain": "AWS",
+    "task": "Document IAM least-privilege principles.",
+    "quality_check": "Keep the implementation simple and explain the logic."
+  },
+  {
+    "id": 76,
+    "domain": "AWS",
+    "task": "Create a simple AWS project README.",
+    "quality_check": "Use a small sample dataset and document your assumptions."
+  },
+  {
+    "id": 77,
+    "domain": "AWS",
+    "task": "Document how CloudWatch can support infrastructure monitoring.",
+    "quality_check": "Add input validation and a short README."
+  },
+  {
+    "id": 78,
+    "domain": "AWS",
+    "task": "Create an AWS deployment checklist.",
+    "quality_check": "Include at least three test cases."
+  },
+  {
+    "id": 79,
+    "domain": "AWS",
+    "task": "Document the difference between EC2, S3 and RDS.",
+    "quality_check": "Add an example input and expected output."
+  },
+  {
+    "id": 80,
+    "domain": "AWS",
+    "task": "Create a simple cloud architecture proposal.",
+    "quality_check": "Keep the implementation simple and explain the logic."
+  },
+  {
+    "id": 81,
+    "domain": "Documentation",
+    "task": "Write a weekly learning log.",
+    "quality_check": "Use a small sample dataset and document your assumptions."
+  },
+  {
+    "id": 82,
+    "domain": "Documentation",
+    "task": "Create a technical glossary for your current learning.",
+    "quality_check": "Add input validation and a short README."
+  },
+  {
+    "id": 83,
+    "domain": "Documentation",
+    "task": "Document one automation idea from your 100 Automation Ideas list.",
+    "quality_check": "Include at least three test cases."
+  },
+  {
+    "id": 84,
+    "domain": "Documentation",
+    "task": "Write a before-and-after process improvement example.",
+    "quality_check": "Add an example input and expected output."
+  },
+  {
+    "id": 85,
+    "domain": "Documentation",
+    "task": "Create a lessons-learned document.",
+    "quality_check": "Keep the implementation simple and explain the logic."
+  },
+  {
+    "id": 86,
+    "domain": "Documentation",
+    "task": "Write a project retrospective.",
+    "quality_check": "Use a small sample dataset and document your assumptions."
+  },
+  {
+    "id": 87,
+    "domain": "Documentation",
+    "task": "Create a professional project README.",
+    "quality_check": "Add input validation and a short README."
+  },
+  {
+    "id": 88,
+    "domain": "Documentation",
+    "task": "Create a portfolio project index.",
+    "quality_check": "Include at least three test cases."
+  },
+  {
+    "id": 89,
+    "domain": "Documentation",
+    "task": "Document one manual process that could be automated.",
+    "quality_check": "Add an example input and expected output."
+  },
+  {
+    "id": 90,
+    "domain": "Documentation",
+    "task": "Write a one-page explanation of a technical concept you learned this week.",
+    "quality_check": "Keep the implementation simple and explain the logic."
+  },
+  {
+    "id": 91,
+    "domain": "Python",
+    "task": "Create a Python script that reads a CSV file and prints the number of rows and columns.",
+    "quality_check": "Use a small sample dataset and document your assumptions."
+  },
+  {
+    "id": 92,
+    "domain": "Python",
+    "task": "Write a Python function that finds duplicate values in a list.",
+    "quality_check": "Add input validation and a short README."
+  },
+  {
+    "id": 93,
+    "domain": "Python",
+    "task": "Create a script that calculates total, average, minimum and maximum from a list of numbers.",
+    "quality_check": "Include at least three test cases."
+  },
+  {
+    "id": 94,
+    "domain": "Python",
+    "task": "Write a Python program that counts the frequency of each word in a text file.",
+    "quality_check": "Add an example input and expected output."
+  },
+  {
+    "id": 95,
+    "domain": "Python",
+    "task": "Create a script that renames files in a folder using a consistent naming pattern.",
+    "quality_check": "Keep the implementation simple and explain the logic."
+  },
+  {
+    "id": 96,
+    "domain": "Python",
+    "task": "Write a Python function to validate an email address using basic string rules.",
+    "quality_check": "Use a small sample dataset and document your assumptions."
+  },
+  {
+    "id": 97,
+    "domain": "Python",
+    "task": "Create a script that converts an Excel-style table exported as CSV into a summary report.",
+    "quality_check": "Add input validation and a short README."
+  },
+  {
+    "id": 98,
+    "domain": "Python",
+    "task": "Write a function that identifies missing values in a CSV column.",
+    "quality_check": "Include at least three test cases."
+  },
+  {
+    "id": 99,
+    "domain": "Python",
+    "task": "Create a simple inventory reorder-level calculator.",
+    "quality_check": "Add an example input and expected output."
+  },
+  {
+    "id": 100,
+    "domain": "Python",
+    "task": "Build a Python script that compares two CSV files and reports new, missing and changed records.",
+    "quality_check": "Keep the implementation simple and explain the logic."
+  },
+  {
+    "id": 101,
+    "domain": "Automation",
+    "task": "Create a purchase-order follow-up tracker from a sample CSV.",
+    "quality_check": "Use a small sample dataset and document your assumptions."
+  },
+  {
+    "id": 102,
+    "domain": "Automation",
+    "task": "Build a script that generates a vendor follow-up email draft from PO data.",
+    "quality_check": "Add input validation and a short README."
+  },
+  {
+    "id": 103,
+    "domain": "Automation",
+    "task": "Create a material aging report showing items pending for more than 7 days.",
+    "quality_check": "Include at least three test cases."
+  },
+  {
+    "id": 104,
+    "domain": "Automation",
+    "task": "Build a script that flags overdue procurement items based on credit time.",
+    "quality_check": "Add an example input and expected output."
+  },
+  {
+    "id": 105,
+    "domain": "Automation",
+    "task": "Create an inventory low-stock alert report.",
+    "quality_check": "Keep the implementation simple and explain the logic."
+  },
+  {
+    "id": 106,
+    "domain": "Automation",
+    "task": "Build a daily shipment summary from sample shipment data.",
+    "quality_check": "Use a small sample dataset and document your assumptions."
+  },
+  {
+    "id": 107,
+    "domain": "Automation",
+    "task": "Create a spare-outward summary grouped by item.",
+    "quality_check": "Add input validation and a short README."
+  },
+  {
+    "id": 108,
+    "domain": "Automation",
+    "task": "Build a defect summary grouped by device type.",
+    "quality_check": "Include at least three test cases."
+  },
+  {
+    "id": 109,
+    "domain": "Automation",
+    "task": "Create a simple ticket-aging report.",
+    "quality_check": "Add an example input and expected output."
+  },
+  {
+    "id": 110,
+    "domain": "Automation",
+    "task": "Build a weekly management summary generator from CSV data.",
+    "quality_check": "Keep the implementation simple and explain the logic."
+  },
+  {
+    "id": 111,
+    "domain": "AI",
+    "task": "Create a markdown file containing 10 prompts for procurement analysis.",
+    "quality_check": "Use a small sample dataset and document your assumptions."
+  },
+  {
+    "id": 112,
+    "domain": "AI",
+    "task": "Create 10 prompts for QC defect analysis.",
+    "quality_check": "Add input validation and a short README."
+  },
+  {
+    "id": 113,
+    "domain": "AI",
+    "task": "Create 10 prompts for management-report generation.",
+    "quality_check": "Include at least three test cases."
+  },
+  {
+    "id": 114,
+    "domain": "AI",
+    "task": "Create a reusable RCTO prompt template.",
+    "quality_check": "Add an example input and expected output."
+  },
+  {
+    "id": 115,
+    "domain": "AI",
+    "task": "Create a prompt that converts raw Excel data into an executive summary.",
+    "quality_check": "Keep the implementation simple and explain the logic."
+  },
+  {
+    "id": 116,
+    "domain": "AI",
+    "task": "Create a prompt for identifying procurement risks without inventing missing information.",
+    "quality_check": "Use a small sample dataset and document your assumptions."
+  },
+  {
+    "id": 117,
+    "domain": "AI",
+    "task": "Create a prompt for analyzing vendor delivery performance.",
+    "quality_check": "Add input validation and a short README."
+  },
+  {
+    "id": 118,
+    "domain": "AI",
+    "task": "Create a prompt for identifying recurring hardware defects.",
+    "quality_check": "Include at least three test cases."
+  },
+  {
+    "id": 119,
+    "domain": "AI",
+    "task": "Create a prompt for turning meeting notes into action items.",
+    "quality_check": "Add an example input and expected output."
+  },
+  {
+    "id": 120,
+    "domain": "AI",
+    "task": "Document 5 practical ways AI can reduce manual Excel work.",
+    "quality_check": "Keep the implementation simple and explain the logic."
+  },
+  {
+    "id": 121,
+    "domain": "Git",
+    "task": "Create a README explaining your Git branching strategy.",
+    "quality_check": "Use a small sample dataset and document your assumptions."
+  },
+  {
+    "id": 122,
+    "domain": "Git",
+    "task": "Practice creating a feature branch and document the commands used.",
+    "quality_check": "Add input validation and a short README."
+  },
+  {
+    "id": 123,
+    "domain": "Git",
+    "task": "Create a Git cheat sheet for your own future reference.",
+    "quality_check": "Include at least three test cases."
+  },
+  {
+    "id": 124,
+    "domain": "Git",
+    "task": "Document the difference between git add, commit, pull and push.",
+    "quality_check": "Add an example input and expected output."
+  },
+  {
+    "id": 125,
+    "domain": "Git",
+    "task": "Create a CONTRIBUTING.md file for one of your repositories.",
+    "quality_check": "Keep the implementation simple and explain the logic."
+  },
+  {
+    "id": 126,
+    "domain": "Git",
+    "task": "Create a .gitignore suitable for a Python project.",
+    "quality_check": "Use a small sample dataset and document your assumptions."
+  },
+  {
+    "id": 127,
+    "domain": "Git",
+    "task": "Document how to recover from an accidental local change using Git.",
+    "quality_check": "Add input validation and a short README."
+  },
+  {
+    "id": 128,
+    "domain": "Git",
+    "task": "Create a Git workflow diagram in markdown.",
+    "quality_check": "Include at least three test cases."
+  },
+  {
+    "id": 129,
+    "domain": "Git",
+    "task": "Document 10 useful Git Bash commands.",
+    "quality_check": "Add an example input and expected output."
+  },
+  {
+    "id": 130,
+    "domain": "Git",
+    "task": "Review an old project and improve its README.",
+    "quality_check": "Keep the implementation simple and explain the logic."
+  },
+  {
+    "id": 131,
+    "domain": "QC",
+    "task": "Create a sample defect classification table for ATM surveillance devices.",
+    "quality_check": "Use a small sample dataset and document your assumptions."
+  },
+  {
+    "id": 132,
+    "domain": "QC",
+    "task": "Build a defect Pareto analysis using sample data.",
+    "quality_check": "Add input validation and a short README."
+  },
+  {
+    "id": 133,
+    "domain": "QC",
+    "task": "Create a device-wise defect rate calculator.",
+    "quality_check": "Include at least three test cases."
+  },
+  {
+    "id": 134,
+    "domain": "QC",
+    "task": "Create a QC daily summary template in markdown.",
+    "quality_check": "Add an example input and expected output."
+  },
+  {
+    "id": 135,
+    "domain": "QC",
+    "task": "Build a first-pass-yield calculation example.",
+    "quality_check": "Keep the implementation simple and explain the logic."
+  },
+  {
+    "id": 136,
+    "domain": "QC",
+    "task": "Create a recurring-defect tracker.",
+    "quality_check": "Use a small sample dataset and document your assumptions."
+  },
+  {
+    "id": 137,
+    "domain": "QC",
+    "task": "Create a root-cause analysis template.",
+    "quality_check": "Add input validation and a short README."
+  },
+  {
+    "id": 138,
+    "domain": "QC",
+    "task": "Build a rework tracking table.",
+    "quality_check": "Include at least three test cases."
+  },
+  {
+    "id": 139,
+    "domain": "QC",
+    "task": "Create a QC KPI definition document.",
+    "quality_check": "Add an example input and expected output."
+  },
+  {
+    "id": 140,
+    "domain": "QC",
+    "task": "Create a sample corrective-action tracker.",
+    "quality_check": "Keep the implementation simple and explain the logic."
+  },
+  {
+    "id": 141,
+    "domain": "Inventory",
+    "task": "Create an inventory aging report.",
+    "quality_check": "Use a small sample dataset and document your assumptions."
+  },
+  {
+    "id": 142,
+    "domain": "Inventory",
+    "task": "Build a stock-in versus stock-out summary.",
+    "quality_check": "Add input validation and a short README."
+  },
+  {
+    "id": 143,
+    "domain": "Inventory",
+    "task": "Create an inventory reconciliation checklist.",
+    "quality_check": "Include at least three test cases."
+  },
+  {
+    "id": 144,
+    "domain": "Inventory",
+    "task": "Build an item-wise consumption report.",
+    "quality_check": "Add an example input and expected output."
+  },
+  {
+    "id": 145,
+    "domain": "Inventory",
+    "task": "Create a minimum-stock and maximum-stock calculator.",
+    "quality_check": "Keep the implementation simple and explain the logic."
+  },
+  {
+    "id": 146,
+    "domain": "Inventory",
+    "task": "Build a monthly inventory KPI report.",
+    "quality_check": "Use a small sample dataset and document your assumptions."
+  },
+  {
+    "id": 147,
+    "domain": "Inventory",
+    "task": "Create a slow-moving inventory report.",
+    "quality_check": "Add input validation and a short README."
+  },
+  {
+    "id": 148,
+    "domain": "Inventory",
+    "task": "Create a damaged-item tracking template.",
+    "quality_check": "Include at least three test cases."
+  },
+  {
+    "id": 149,
+    "domain": "Inventory",
+    "task": "Build a spare request versus outward analysis.",
+    "quality_check": "Add an example input and expected output."
+  },
+  {
+    "id": 150,
+    "domain": "Inventory",
+    "task": "Create an inventory audit checklist.",
+    "quality_check": "Keep the implementation simple and explain the logic."
+  },
+  {
+    "id": 151,
+    "domain": "Power BI",
+    "task": "Create a sample dataset for a procurement dashboard.",
+    "quality_check": "Use a small sample dataset and document your assumptions."
+  },
+  {
+    "id": 152,
+    "domain": "Power BI",
+    "task": "Document 10 useful procurement dashboard KPIs.",
+    "quality_check": "Add input validation and a short README."
+  },
+  {
+    "id": 153,
+    "domain": "Power BI",
+    "task": "Create a data dictionary for a QC dashboard.",
+    "quality_check": "Include at least three test cases."
+  },
+  {
+    "id": 154,
+    "domain": "Power BI",
+    "task": "Design a shipment dashboard layout in markdown.",
+    "quality_check": "Add an example input and expected output."
+  },
+  {
+    "id": 155,
+    "domain": "Power BI",
+    "task": "Document useful DAX measures for inventory analysis.",
+    "quality_check": "Keep the implementation simple and explain the logic."
+  },
+  {
+    "id": 156,
+    "domain": "Power BI",
+    "task": "Create a sample management dashboard specification.",
+    "quality_check": "Use a small sample dataset and document your assumptions."
+  },
+  {
+    "id": 157,
+    "domain": "Power BI",
+    "task": "Create a defect dashboard requirements document.",
+    "quality_check": "Add input validation and a short README."
+  },
+  {
+    "id": 158,
+    "domain": "Power BI",
+    "task": "Create a vendor performance dashboard specification.",
+    "quality_check": "Include at least three test cases."
+  },
+  {
+    "id": 159,
+    "domain": "Power BI",
+    "task": "Create a shipment SLA dashboard specification.",
+    "quality_check": "Add an example input and expected output."
+  },
+  {
+    "id": 160,
+    "domain": "Power BI",
+    "task": "Document a Power BI data-cleaning checklist.",
+    "quality_check": "Keep the implementation simple and explain the logic."
+  },
+  {
+    "id": 161,
+    "domain": "AWS",
+    "task": "Document the architecture of a simple AWS monitoring solution.",
+    "quality_check": "Use a small sample dataset and document your assumptions."
+  },
+  {
+    "id": 162,
+    "domain": "AWS",
+    "task": "Create an AWS services cheat sheet for beginners.",
+    "quality_check": "Add input validation and a short README."
+  },
+  {
+    "id": 163,
+    "domain": "AWS",
+    "task": "Document a simple EC2 monitoring project.",
+    "quality_check": "Include at least three test cases."
+  },
+  {
+    "id": 164,
+    "domain": "AWS",
+    "task": "Create a cloud cost-optimization checklist.",
+    "quality_check": "Add an example input and expected output."
+  },
+  {
+    "id": 165,
+    "domain": "AWS",
+    "task": "Document IAM least-privilege principles.",
+    "quality_check": "Keep the implementation simple and explain the logic."
+  },
+  {
+    "id": 166,
+    "domain": "AWS",
+    "task": "Create a simple AWS project README.",
+    "quality_check": "Use a small sample dataset and document your assumptions."
+  },
+  {
+    "id": 167,
+    "domain": "AWS",
+    "task": "Document how CloudWatch can support infrastructure monitoring.",
+    "quality_check": "Add input validation and a short README."
+  },
+  {
+    "id": 168,
+    "domain": "AWS",
+    "task": "Create an AWS deployment checklist.",
+    "quality_check": "Include at least three test cases."
+  },
+  {
+    "id": 169,
+    "domain": "AWS",
+    "task": "Document the difference between EC2, S3 and RDS.",
+    "quality_check": "Add an example input and expected output."
+  },
+  {
+    "id": 170,
+    "domain": "AWS",
+    "task": "Create a simple cloud architecture proposal.",
+    "quality_check": "Keep the implementation simple and explain the logic."
+  },
+  {
+    "id": 171,
+    "domain": "Documentation",
+    "task": "Write a weekly learning log.",
+    "quality_check": "Use a small sample dataset and document your assumptions."
+  },
+  {
+    "id": 172,
+    "domain": "Documentation",
+    "task": "Create a technical glossary for your current learning.",
+    "quality_check": "Add input validation and a short README."
+  },
+  {
+    "id": 173,
+    "domain": "Documentation",
+    "task": "Document one automation idea from your 100 Automation Ideas list.",
+    "quality_check": "Include at least three test cases."
+  },
+  {
+    "id": 174,
+    "domain": "Documentation",
+    "task": "Write a before-and-after process improvement example.",
+    "quality_check": "Add an example input and expected output."
+  },
+  {
+    "id": 175,
+    "domain": "Documentation",
+    "task": "Create a lessons-learned document.",
+    "quality_check": "Keep the implementation simple and explain the logic."
+  },
+  {
+    "id": 176,
+    "domain": "Documentation",
+    "task": "Write a project retrospective.",
+    "quality_check": "Use a small sample dataset and document your assumptions."
+  },
+  {
+    "id": 177,
+    "domain": "Documentation",
+    "task": "Create a professional project README.",
+    "quality_check": "Add input validation and a short README."
+  },
+  {
+    "id": 178,
+    "domain": "Documentation",
+    "task": "Create a portfolio project index.",
+    "quality_check": "Include at least three test cases."
+  },
+  {
+    "id": 179,
+    "domain": "Documentation",
+    "task": "Document one manual process that could be automated.",
+    "quality_check": "Add an example input and expected output."
+  },
+  {
+    "id": 180,
+    "domain": "Documentation",
+    "task": "Write a one-page explanation of a technical concept you learned this week.",
+    "quality_check": "Keep the implementation simple and explain the logic."
+  },
+  {
+    "id": 181,
+    "domain": "Python",
+    "task": "Create a Python script that reads a CSV file and prints the number of rows and columns.",
+    "quality_check": "Use a small sample dataset and document your assumptions."
+  },
+  {
+    "id": 182,
+    "domain": "Python",
+    "task": "Write a Python function that finds duplicate values in a list.",
+    "quality_check": "Add input validation and a short README."
+  },
+  {
+    "id": 183,
+    "domain": "Python",
+    "task": "Create a script that calculates total, average, minimum and maximum from a list of numbers.",
+    "quality_check": "Include at least three test cases."
+  },
+  {
+    "id": 184,
+    "domain": "Python",
+    "task": "Write a Python program that counts the frequency of each word in a text file.",
+    "quality_check": "Add an example input and expected output."
+  },
+  {
+    "id": 185,
+    "domain": "Python",
+    "task": "Create a script that renames files in a folder using a consistent naming pattern.",
+    "quality_check": "Keep the implementation simple and explain the logic."
+  },
+  {
+    "id": 186,
+    "domain": "Python",
+    "task": "Write a Python function to validate an email address using basic string rules.",
+    "quality_check": "Use a small sample dataset and document your assumptions."
+  },
+  {
+    "id": 187,
+    "domain": "Python",
+    "task": "Create a script that converts an Excel-style table exported as CSV into a summary report.",
+    "quality_check": "Add input validation and a short README."
+  },
+  {
+    "id": 188,
+    "domain": "Python",
+    "task": "Write a function that identifies missing values in a CSV column.",
+    "quality_check": "Include at least three test cases."
+  },
+  {
+    "id": 189,
+    "domain": "Python",
+    "task": "Create a simple inventory reorder-level calculator.",
+    "quality_check": "Add an example input and expected output."
+  },
+  {
+    "id": 190,
+    "domain": "Python",
+    "task": "Build a Python script that compares two CSV files and reports new, missing and changed records.",
+    "quality_check": "Keep the implementation simple and explain the logic."
+  },
+  {
+    "id": 191,
+    "domain": "Automation",
+    "task": "Create a purchase-order follow-up tracker from a sample CSV.",
+    "quality_check": "Use a small sample dataset and document your assumptions."
+  },
+  {
+    "id": 192,
+    "domain": "Automation",
+    "task": "Build a script that generates a vendor follow-up email draft from PO data.",
+    "quality_check": "Add input validation and a short README."
+  },
+  {
+    "id": 193,
+    "domain": "Automation",
+    "task": "Create a material aging report showing items pending for more than 7 days.",
+    "quality_check": "Include at least three test cases."
+  },
+  {
+    "id": 194,
+    "domain": "Automation",
+    "task": "Build a script that flags overdue procurement items based on credit time.",
+    "quality_check": "Add an example input and expected output."
+  },
+  {
+    "id": 195,
+    "domain": "Automation",
+    "task": "Create an inventory low-stock alert report.",
+    "quality_check": "Keep the implementation simple and explain the logic."
+  },
+  {
+    "id": 196,
+    "domain": "Automation",
+    "task": "Build a daily shipment summary from sample shipment data.",
+    "quality_check": "Use a small sample dataset and document your assumptions."
+  },
+  {
+    "id": 197,
+    "domain": "Automation",
+    "task": "Create a spare-outward summary grouped by item.",
+    "quality_check": "Add input validation and a short README."
+  },
+  {
+    "id": 198,
+    "domain": "Automation",
+    "task": "Build a defect summary grouped by device type.",
+    "quality_check": "Include at least three test cases."
+  },
+  {
+    "id": 199,
+    "domain": "Automation",
+    "task": "Create a simple ticket-aging report.",
+    "quality_check": "Add an example input and expected output."
+  },
+  {
+    "id": 200,
+    "domain": "Automation",
+    "task": "Build a weekly management summary generator from CSV data.",
+    "quality_check": "Keep the implementation simple and explain the logic."
+  }
+]
