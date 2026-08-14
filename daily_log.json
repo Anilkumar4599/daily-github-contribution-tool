@@ -4,5 +4,11 @@
     "domain": "QC",
     "task": "Create a sample defect classification table for ATM surveillance devices.",
     "completed": true
+  },
+  "2026-08-14": {
+    "task_id": 42,
+    "domain": "QC",
+    "task": "Build a defect Pareto analysis using sample data.",
+    "completed": true
   }
 }
