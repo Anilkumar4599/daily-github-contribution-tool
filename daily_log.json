@@ -16,5 +16,11 @@
     "domain": "QC",
     "task": "Create a QC daily summary template in markdown.",
     "completed": true
+  },
+  "2026-08-17": {
+    "task_id": 45,
+    "domain": "QC",
+    "task": "Build a first-pass-yield calculation example.",
+    "completed": true
   }
 }
