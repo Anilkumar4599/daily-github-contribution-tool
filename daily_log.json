@@ -11,6 +11,12 @@
     "task": "Build a defect Pareto analysis using sample data.",
     "completed": true
   },
+  "2026-08-14": {
+    "task_id": 43,
+    "domain": "QC",
+    "task": "Build a defect Pareto analysis using sample data.",
+    "completed": true
+  },
   "2026-08-16": {
     "task_id": 44,
     "domain": "QC",
