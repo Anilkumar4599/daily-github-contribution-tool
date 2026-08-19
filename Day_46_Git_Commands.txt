@@ -1,0 +1,154 @@
+    3  npm install jsonfile moment simple-git esm random
+   11  npm install jsonfile moment simple-git esm random
+   12  git config user.name Anilkumar4599
+   13  git config user.email anilkumarm4599@gmail.com
+   16  git init
+   17  git config user.name "Anilkumar4599"
+   18  git config user.email "anilkumarm4599@gmail.com"
+   33  git status
+   34  git add commit-script.mjs
+   35  git add commit-script.mjs data.json
+   36  git commit -m "Add commit script with random commit dates"
+   37  git push -u origin master
+   38  git remote add origin https://github.com/Anilkumar4599/github-Bot.git
+   39  git remote -v
+   40  git push -u origin master
+   41  git push -u origin main
+   45  python daily_github.py
+   48  git status
+   49  git init
+   50  git add filename
+   51  git add notepad GIT_CHEAT_SHEET.md
+   52  git add GIT_CHEAT_SHEET.md
+   53  touch GIT_CHEAT_SHEET.md
+   55  notepad GIT_CHEAT_SHEET.md
+   56  git status
+   60  git add GIT_CHEAT_SHEET.md
+   61  git status
+   62  git commit -m "Add Git cheat sheet"
+   63  git status
+   64  git commit -m "Add Git cheat sheet"
+   65  git log --oneline -5
+   66  git remote -v
+   69  python daily_github.py
+   70  git init
+   71  git add .
+   72  git commit -m "Initial commit: Daily GitHub Contribution Tool"
+   73  git remote add origin https://github.com/YOUR_USERNAME/daily-github-contribution-tool.git
+   74  git branch -M main
+   79  git remote set-url origin https://github.com/Anilkumar4599/daily-github-contribution-tool.git
+   80  git remote -v
+   81  git push -u origin main
+   82  git status
+   83  git push -u origin main
+   85  python daily_github.py
+   86  git add .
+   87  git commit -m "Day: daily learning task"
+   88  git push
+   89  python daily_github.py
+   91  git status
+   92  git add .
+   93  git commit -m "Day 2: QA defect analysis"
+   94  git push
+   95  python daily_github.py
+   96  python daily_github.py
+   99  touch QC_Defect_Classification.md
+  102  touch QC_Defect_Classification.md
+  104  notepad QC_Defect_Classification.md
+  106  git diff -- QC_Defect_Classification.md
+  108  git diff -- QC_Defect_Classification.md
+  111  notepad QC_Defect_Classification.md
+  112  grep "Power" QC_Defect_Classification.md
+  113  git status
+  115  git add QC_Defect_Classification.md
+  116  git status
+  117  git commit -m "Add QC defect classification"
+  118  git push
+  119  python daily_github.py --complete
+  120  git status
+  122  git add daily_log.json
+  123  git status
+  124  git commit -m "Mark task 41 as completed"
+  125  git push
+  127  python daily_github.py
+  128  touch QC_Pareto_Analysis.md
+  131  notepad QC_Pareto_Analysis.md
+  132  notepad QC_Pareto_Analysis.md
+  134  touch QC_Pareto_README.md
+  136  notepad QC_Pareto_README.md
+  139  git status
+  140  git add QC_Pareto_Analysis.md QC_Pareto_README.md
+  141  git status
+  142  git commit -m "Add QC Pareto analysis"
+  143  git push
+  144  python daily_github.py --complete
+  145  git status
+  146  git status
+  147  git add daily_log.json
+  148  git status
+  149  git commit -m "Mark task 42 as completed"
+  150  git push
+  151  python daily_github.py
+  153  python daily_github.py
+  154  touch QC_Daily_Summary_Template.md
+  156  notepad QC_Daily_Summary_Template.md
+  158  notepad QC_Daily_Summary_Template.md
+  159  grep "QC / Documentation" QC_Daily_Summary_Template.md
+  160  git status
+  161  grep "Units Passed\|Units Failed\|Pending Inspection" QC_Daily_Summary_Template.md
+  162  grep "Critical\|High\|Medium\|Low" QC_Daily_Summary_Template.md
+  163  grep "HW =\|SW =\|EDGE =\|QC / Documentation =" QC_Daily_Summary_Template.md
+  164  git status
+  165  git add QC_Daily_Summary_Template.md
+  166  git status
+  167  git commit -m "Add QC daily summary template"
+  168  git push
+  169  python daily_github.py --complete
+  170  git status
+  172  git add daily_log.json
+  173  git status
+  174  git commit -m "Mark task 44 as completed"
+  175  git push
+  176  [200~python daily_github.py~
+  177  python daily_github.py
+  178  python daily_github.py
+  179  python daily_github.py
+  180  touch QC_FPY_Calculation.md
+  181  notepad QC_FPY_Calculation.md
+  184  grep "FPY = 92%" QC_FPY_Calculation.md
+  185  grep "92 / 100" QC_FPY_Calculation.md
+  186  grep "92 + 8 = 100" QC_FPY_Calculation.md
+  187  grep "Invalid Input" QC_FPY_Calculation.md
+  188  git status
+  189  git add QC_FPY_Calculation.md
+  190  git status
+  191  git commit -m "Add QC first pass yield calculation"
+  192  git push
+  193  python daily_github.py --complete
+  194  git status
+  195  git add daily_log.json
+  196  git commit -m "Mark task 45 as completed"
+  197  git push
+  198  git status
+  200  python daily_github.py
+  201  touch QC_Recurring_Defect_Tracker.md
+  202  notepad QC_Recurring_Defect_Tracker.md
+  205  grep "Network connectivity failure" QC_Recurring_Defect_Tracker.md
+  206  grep "6 occurrences" QC_Recurring_Defect_Tracker.md
+  207  grep "No Video Output" QC_Recurring_Defect_Tracker.md
+  208  grep "94.74%" QC_Recurring_Defect_Tracker.md
+  209  git status
+  210  git add QC_Recurring_Defect_Tracker.md
+  211  git status
+  212  git commit -m "Add QC recurring defect tracker"
+  213  git push
+  214  python daily_github.py --complete
+  215  git status
+  216  git add daily_log.json
+  217  git commit -m "Mark task 46 as completed"
+  218  git push
+  219  git status
+  220  python daily_github.py --complete
+  221  git pull
+  229  history | grep -E "daily_github|git |touch |notepad |grep "
+  230  history | grep -E "daily_github|git |touch |notepad |grep " > Day_46_Git_Commands.txt
