@@ -1,0 +1,127 @@
+DAY 47 — GITHUB / GIT COMMANDS
+Date: 2026-08-19
+Task: #47 — Create a Root-Cause Analysis Template
+Domain: QC
+
+==================================================
+1. CHECK TODAY'S TASK
+==================================================
+
+python daily_github.py
+
+==================================================
+2. CREATE RCA FILES
+==================================================
+
+touch QC_RCA_Template.md
+touch QC_RCA_README.md
+
+==================================================
+3. OPEN FILES FOR EDITING
+==================================================
+
+notepad QC_RCA_Template.md
+notepad QC_RCA_README.md
+
+==================================================
+4. CHECK FILES
+==================================================
+
+ls -l QC_RCA_Template.md QC_RCA_README.md
+
+==================================================
+5. REVIEW FILE CONTENT
+==================================================
+
+cat QC_RCA_README.md
+cat QC_RCA_Template.md
+
+==================================================
+6. VALIDATION CHECKS
+==================================================
+
+grep "Unknown / Information Required" QC_RCA_Template.md
+
+grep "No evidence = No confirmed root cause" QC_RCA_Template.md
+
+grep "Five-Why" QC_RCA_Template.md
+
+grep "Corrective Action" QC_RCA_Template.md
+
+grep "Preventive Action" QC_RCA_Template.md
+
+grep "Closure Criteria" QC_RCA_Template.md
+
+==================================================
+7. CHECK GIT STATUS
+==================================================
+
+git status
+
+==================================================
+8. ADD RCA FILES TO GIT
+==================================================
+
+git add QC_RCA_Template.md QC_RCA_README.md
+
+==================================================
+9. CHECK STAGED FILES
+==================================================
+
+git status
+
+==================================================
+10. COMMIT RCA WORK
+==================================================
+
+git commit -m "Add QC RCA template"
+
+==================================================
+11. PUSH RCA WORK TO GITHUB
+==================================================
+
+git push
+
+==================================================
+12. MARK DAILY TASK COMPLETE
+==================================================
+
+python daily_github.py --complete
+
+==================================================
+13. CHECK COMPLETION RECORD
+==================================================
+
+git status
+
+==================================================
+14. ADD DAILY LOG
+==================================================
+
+git add daily_log.json
+
+==================================================
+15. COMMIT DAILY COMPLETION
+==================================================
+
+git commit -m "Mark task 47 as completed"
+
+==================================================
+16. PUSH DAILY COMPLETION
+==================================================
+
+git push
+
+==================================================
+17. FINAL CHECK
+==================================================
+
+git status
+
+Expected result:
+
+nothing to commit, working tree clean
+
+==================================================
+END OF DAY 47
+==================================================
