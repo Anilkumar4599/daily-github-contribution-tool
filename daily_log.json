@@ -6,12 +6,6 @@
     "completed": true
   },
   "2026-08-14": {
-    "task_id": 42,
-    "domain": "QC",
-    "task": "Build a defect Pareto analysis using sample data.",
-    "completed": true
-  },
-  "2026-08-14": {
     "task_id": 43,
     "domain": "QC",
     "task": "Build a defect Pareto analysis using sample data.",
@@ -33,6 +27,12 @@
     "task_id": 46,
     "domain": "QC",
     "task": "Create a recurring-defect tracker.",
+    "completed": true
+  },
+  "2026-08-19": {
+    "task_id": 47,
+    "domain": "QC",
+    "task": "Create a root-cause analysis template.",
     "completed": true
   }
 }
