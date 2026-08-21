@@ -40,5 +40,11 @@
     "domain": "QC",
     "task": "Build a rework tracking table.",
     "completed": true
+  },
+  "2026-08-21": {
+    "task_id": 49,
+    "domain": "QC",
+    "task": "Create a QC KPI definition document.",
+    "completed": true
   }
 }
