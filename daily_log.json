@@ -52,5 +52,11 @@
     "domain": "QC",
     "task": "Create a sample corrective-action tracker.",
     "completed": true
+  },
+  "2026-08-23": {
+    "task_id": 51,
+    "domain": "Inventory",
+    "task": "Create an inventory aging report.",
+    "completed": true
   }
 }
