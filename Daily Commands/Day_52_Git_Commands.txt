@@ -1,0 +1,89 @@
+DAY 52 — GIT COMMAND HISTORY
+Date: 2026-08-24
+Task: #52
+Domain: Inventory
+Work: Build a stock-in versus stock-out summary.
+
+==================================================
+COMMANDS USED
+==================================================
+
+python daily_github.py
+
+touch QC_Stock_In_Out_Summary.md
+
+ls -l QC_Stock_In_Out_Summary.md
+
+notepad QC_Stock_In_Out_Summary.md
+
+grep "360" QC_Stock_In_Out_Summary.md
+
+grep "170" QC_Stock_In_Out_Summary.md
+
+grep "260" QC_Stock_In_Out_Summary.md
+
+grep "270" QC_Stock_In_Out_Summary.md
+
+grep "Result: PASS" QC_Stock_In_Out_Summary.md
+
+touch QC_Stock_In_Out_README.md
+
+notepad QC_Stock_In_Out_README.md
+
+cat QC_Stock_In_Out_README.md
+
+grep "Result: PASS" QC_Stock_In_Out_README.md
+
+git status
+
+git add QC_Stock_In_Out_Summary.md
+
+git add QC_Stock_In_Out_README.md
+
+git status
+
+git commit -m "Add QC stock in and stock out summary"
+
+git status
+
+git push
+
+python daily_github.py --complete
+
+git status
+
+git add daily_log.json
+
+git status
+
+git commit -m "Mark task 52 as completed"
+
+git push
+
+touch "Daily Commands/Day_52_Git_Commands.txt"
+
+notepad "Daily Commands/Day_52_Git_Commands.txt"
+
+==================================================
+IMPORTANT RESULTS
+==================================================
+
+Total Opening Stock = 360
+
+Total Stock In = 170
+
+Total Stock Out = 260
+
+Total Closing Stock = 270
+
+Validation:
+
+360 + 170 - 260 = 270
+
+Result: PASS
+
+Task #52 = COMPLETED
+
+==================================================
+END OF DAY
+==================================================
