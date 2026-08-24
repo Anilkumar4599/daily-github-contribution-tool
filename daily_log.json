@@ -58,5 +58,11 @@
     "domain": "Inventory",
     "task": "Create an inventory aging report.",
     "completed": true
+  },
+  "2026-08-24": {
+    "task_id": 52,
+    "domain": "Inventory",
+    "task": "Build a stock-in versus stock-out summary.",
+    "completed": true
   }
 }
