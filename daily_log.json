@@ -82,5 +82,11 @@
     "domain": "Inventory",
     "task": "Create a minimum-stock and maximum-stock calculator.",
     "completed": true
+  },
+  "2026-08-28": {
+    "task_id": 56,
+    "domain": "Inventory",
+    "task": "Build a monthly inventory KPI report.",
+    "completed": true
   }
 }
