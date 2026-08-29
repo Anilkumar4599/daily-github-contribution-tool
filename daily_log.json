@@ -88,5 +88,11 @@
     "domain": "Inventory",
     "task": "Build a monthly inventory KPI report.",
     "completed": true
+  },
+  "2026-08-29": {
+    "task_id": 57,
+    "domain": "Inventory",
+    "task": "Create a slow-moving inventory report.",
+    "completed": true
   }
 }
