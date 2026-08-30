@@ -1,0 +1,15 @@
+[ ] Create QC_Damaged_Item_Tracking.md
+[ ] Add sample damaged-item data
+[ ] Add 3+ test cases
+[ ] Validate with grep
+[ ] git add
+[ ] git commit
+[ ] git push
+[ ] python daily_github.py --complete
+[ ] Commit daily_log.json
+[ ] git push
+[ ] Create Daily Commands/Day_58_Git_Commands.txt
+[ ] Add command history
+[ ] git commit
+[ ] git push
+[ ] git status → working tree clean
