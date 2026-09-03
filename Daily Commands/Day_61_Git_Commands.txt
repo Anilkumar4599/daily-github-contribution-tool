@@ -1,0 +1,6 @@
+touch "Daily Commands/Day_61_Git_Commands.txt"
+notepad "Daily Commands/Day_61_Git_Commands.txt"
+git add "Daily Commands/Day_61_Git_Commands.txt"
+git commit -m "Add day 61 git command history"
+git push
+git status
