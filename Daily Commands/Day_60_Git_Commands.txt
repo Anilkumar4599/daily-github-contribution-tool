@@ -1,0 +1,4 @@
+git add "Daily Commands/Day_60_Git_Commands.txt"
+git commit -m "Add day 60 git command history"
+git push
+git status
