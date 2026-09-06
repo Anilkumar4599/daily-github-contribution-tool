@@ -1,0 +1,22 @@
+ 501  python daily_github.py
+  502  touch Inventory_DAX_Measures.md
+  503  notepad Inventory_DAX_Measures.md
+  504  Total Stock Out =
+  505  SUM(Inventory[Stock Out])
+  506  grep "Total Stock In" Inventory_DAX_Measures.md
+  507  grep "Total Stock Out" Inventory_DAX_Measures.md
+  508  git add Inventory_DAX_Measures.md
+  509  git commit -m "Add inventory DAX measures"
+  510  git push
+  511  ls -l
+  512  git status
+  513  git add .
+  514  git commit -m "Add inventory DAX measures"
+  515  git push'
+  516  git push
+  517  python daily_github.py --complete
+  518  git add daily_log.json
+  519  git commit -m "Mark task 65 as completed"
+  520  git push
+  521  git status
+  522  notepad "Daily Commands/Day_65_Git_Commands.txt"
