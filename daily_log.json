@@ -136,5 +136,11 @@
     "domain": "Power BI",
     "task": "Create a sample management dashboard specification.",
     "completed": true
+  },
+  "2026-09-08": {
+    "task_id": 67,
+    "domain": "Power BI",
+    "task": "Create a defect dashboard requirements document.",
+    "completed": true
   }
 }
