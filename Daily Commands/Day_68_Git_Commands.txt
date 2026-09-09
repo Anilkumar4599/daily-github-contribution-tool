@@ -1,0 +1,135 @@
+DAY 68 - GIT COMMAND HISTORY
+Date: 2026-09-09
+Task: #68
+Domain: Power BI
+Work: Create a vendor performance dashboard specification
+
+==================================================
+1. GET DAILY TASK
+==================================================
+
+python daily_github.py
+
+==================================================
+2. CREATE POWER BI SPECIFICATION
+==================================================
+
+touch PowerBI_Vendor_Performance_Dashboard.md
+
+ls -l PowerBI_Vendor_Performance_Dashboard.md
+
+notepad PowerBI_Vendor_Performance_Dashboard.md
+
+==================================================
+3. VALIDATE DOCUMENT
+==================================================
+
+grep "Vendor A" PowerBI_Vendor_Performance_Dashboard.md
+
+grep "3.17%" PowerBI_Vendor_Performance_Dashboard.md
+
+grep "90%" PowerBI_Vendor_Performance_Dashboard.md
+
+grep "Test Case" PowerBI_Vendor_Performance_Dashboard.md
+
+grep "PASS" PowerBI_Vendor_Performance_Dashboard.md
+
+==================================================
+4. CHECK GIT
+==================================================
+
+git status
+
+==================================================
+5. ADD ACTUAL WORK
+==================================================
+
+git add PowerBI_Vendor_Performance_Dashboard.md
+
+==================================================
+6. VERIFY STAGING
+==================================================
+
+git status
+
+==================================================
+7. COMMIT ACTUAL WORK
+==================================================
+
+git commit -m "Add Power BI vendor performance dashboard specification"
+
+==================================================
+8. PUSH ACTUAL WORK
+==================================================
+
+git push
+
+==================================================
+9. MARK TASK 68 COMPLETE
+==================================================
+
+python daily_github.py --complete
+
+==================================================
+10. CHECK DAILY LOG
+==================================================
+
+git status
+
+==================================================
+11. ADD DAILY LOG
+==================================================
+
+git add daily_log.json
+
+==================================================
+12. COMMIT TASK COMPLETION
+==================================================
+
+git commit -m "Mark task 68 as completed"
+
+==================================================
+13. PUSH TASK COMPLETION
+==================================================
+
+git push
+
+==================================================
+14. CREATE COMMAND HISTORY
+==================================================
+
+touch "Daily Commands/Day_68_Git_Commands.txt"
+
+notepad "Daily Commands/Day_68_Git_Commands.txt"
+
+==================================================
+15. ADD COMMAND HISTORY
+==================================================
+
+git add "Daily Commands/Day_68_Git_Commands.txt"
+
+==================================================
+16. COMMIT COMMAND HISTORY
+==================================================
+
+git commit -m "Add day 68 git command history"
+
+==================================================
+17. PUSH COMMAND HISTORY
+==================================================
+
+git push
+
+==================================================
+18. FINAL VERIFICATION
+==================================================
+
+git status
+
+Expected:
+
+nothing to commit, working tree clean
+
+==================================================
+DAY 68 COMPLETE
+==================================================
