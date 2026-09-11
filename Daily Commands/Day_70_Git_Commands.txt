@@ -1,0 +1,37 @@
+DAY 70 - GIT COMMAND HISTORY
+Date: 2026-09-11
+Task: Power BI - Data Cleaning Checklist
+
+1. python daily_github.py
+
+2. touch PowerBI_Data_Cleaning_Checklist.md
+
+3. notepad PowerBI_Data_Cleaning_Checklist.md
+
+4. ls -l PowerBI_Data_Cleaning_Checklist.md
+
+5. grep -n "Data-Cleaning Checklist" PowerBI_Data_Cleaning_Checklist.md
+
+6. grep -n "Expected Cleaned Output" PowerBI_Data_Cleaning_Checklist.md
+
+7. git status
+
+8. git add PowerBI_Data_Cleaning_Checklist.md
+
+9. git status
+
+10. git commit -m "Add Day 70 Power BI data cleaning checklist"
+
+11. git push
+
+12. python daily_github.py --complete
+
+13. git status
+
+14. git add daily_log.json
+
+15. git commit -m "Mark task 70 as completed"
+
+16. git push
+
+17. git status
