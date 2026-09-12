@@ -160,5 +160,11 @@
     "domain": "Power BI",
     "task": "Document a Power BI data-cleaning checklist.",
     "completed": true
+  },
+  "2026-09-12": {
+    "task_id": 71,
+    "domain": "AWS",
+    "task": "Document the architecture of a simple AWS monitoring solution.",
+    "completed": true
   }
 }
