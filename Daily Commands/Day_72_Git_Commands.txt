@@ -1,0 +1,43 @@
+DAY 72 - GIT COMMAND HISTORY
+Date: 2026-09-13
+Task: AWS - Beginner Services Cheat Sheet
+
+1. python daily_github.py
+
+2. touch AWS_Beginners_Services_Cheat_Sheet.md
+
+3. notepad AWS_Beginners_Services_Cheat_Sheet.md
+
+4. touch AWS_Beginners_Services_README.md
+
+5. notepad AWS_Beginners_Services_README.md
+
+6. ls -l AWS_Beginners_Services_Cheat_Sheet.md AWS_Beginners_Services_README.md
+
+7. grep -n "Input Validation" AWS_Beginners_Services_Cheat_Sheet.md
+
+8. grep -n "Validation Test Cases" AWS_Beginners_Services_Cheat_Sheet.md
+
+9. grep -n "Learning Objective" AWS_Beginners_Services_README.md
+
+10. git status
+
+11. git add AWS_Beginners_Services_Cheat_Sheet.md AWS_Beginners_Services_README.md
+
+12. git status
+
+13. git commit -m "Add Day 72 AWS beginner services cheat sheet"
+
+14. git push
+
+15. python daily_github.py --complete
+
+16. git status
+
+17. git add daily_log.json
+
+18. git commit -m "Mark task 72 as completed"
+
+19. git push
+
+20. git status
