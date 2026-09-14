@@ -1,0 +1,45 @@
+DAY 73 - GIT COMMAND HISTORY
+Date: 2026-09-14
+Task: AWS - Simple EC2 Monitoring Project
+
+1. python daily_github.py
+
+2. touch AWS_EC2_Monitoring_Project.md
+
+3. notepad AWS_EC2_Monitoring_Project.md
+
+4. ls -l AWS_EC2_Monitoring_Project.md
+
+5. grep -n "AWS EC2 Monitoring Project" AWS_EC2_Monitoring_Project.md
+
+6. grep -n "Test Cases" AWS_EC2_Monitoring_Project.md
+
+7. grep -n "TC01" AWS_EC2_Monitoring_Project.md
+
+8. grep -n "TC05" AWS_EC2_Monitoring_Project.md
+
+9. grep -n "Overall Result: PASS" AWS_EC2_Monitoring_Project.md
+
+10. git status
+
+11. git add AWS_EC2_Monitoring_Project.md
+
+12. git status
+
+13. git commit -m "Add Day 73 EC2 monitoring project"
+
+14. git push
+
+15. python daily_github.py --complete
+
+16. git status
+
+17. git add daily_log.json
+
+18. git commit -m "Mark task 73 as completed"
+
+19. git push
+
+20. Update Daily Tracker 2026
+
+21. git status
