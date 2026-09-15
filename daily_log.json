@@ -178,5 +178,11 @@
     "domain": "AWS",
     "task": "Document a simple EC2 monitoring project.",
     "completed": true
+  },
+  "2026-09-15": {
+    "task_id": 74,
+    "domain": "AWS",
+    "task": "Create a cloud cost-optimization checklist.",
+    "completed": true
   }
 }
