@@ -1,0 +1,59 @@
+DAY 75 – GIT COMMAND HISTORY
+Date: 2026-09-16
+Task: #75
+Domain: AWS
+Work: Document IAM least-privilege principles.
+
+--------------------------------------------------
+COMMANDS USED
+--------------------------------------------------
+
+python daily_github.py
+
+cd ~/Downloads/Daily_GitHub_Contribution_Tool
+
+touch AWS_IAM_Least_Privilege.md
+
+notepad AWS_IAM_Least_Privilege.md
+
+ls -l AWS_IAM_Least_Privilege.md
+
+grep -n "Least Privilege" AWS_IAM_Least_Privilege.md
+
+cat AWS_IAM_Least_Privilege.md
+
+grep -n "Objective\|What is AWS IAM\|What is Least Privilege\|Best Practices\|Validation Test Cases\|Final Summary" AWS_IAM_Least_Privilege.md
+
+git status
+
+git add AWS_IAM_Least_Privilege.md
+
+git status
+
+git commit -m "Add Day 75 IAM least privilege documentation"
+
+git push
+
+python daily_github.py --complete
+
+git status
+
+git add daily_log.json
+
+git commit -m "Mark task 75 as completed"
+
+git push
+
+notepad "Daily Tracker 2026"
+
+touch "Daily Commands/Day_75_Git_Commands.txt"
+
+notepad "Daily Commands/Day_75_Git_Commands.txt"
+
+git add "Daily Commands/Day_75_Git_Commands.txt"
+
+git commit -m "Add day 75 git command history"
+
+git push
+
+git status
