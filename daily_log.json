@@ -184,5 +184,11 @@
     "domain": "AWS",
     "task": "Create a cloud cost-optimization checklist.",
     "completed": true
+  },
+  "2026-09-16": {
+    "task_id": 75,
+    "domain": "AWS",
+    "task": "Document IAM least-privilege principles.",
+    "completed": true
   }
 }
