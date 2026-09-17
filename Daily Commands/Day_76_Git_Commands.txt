@@ -1,0 +1,57 @@
+DAY 76 – GIT COMMAND HISTORY
+Date: 2026-09-17
+Task: #76
+Domain: AWS
+Work: Create a simple AWS project README.
+
+--------------------------------------------------
+COMMANDS USED
+--------------------------------------------------
+
+python daily_github.py
+
+cd ~/Downloads/Daily_GitHub_Contribution_Tool
+
+touch AWS_ATM_Surveillance_Project_README.md
+
+notepad AWS_ATM_Surveillance_Project_README.md
+
+ls -l AWS_ATM_Surveillance_Project_README.md
+
+grep -n "Project Overview\|Sample Dataset\|Possible AWS Services\|Assumptions\|Validation Test Cases\|Future Practical Implementation" AWS_ATM_Surveillance_Project_README.md
+
+cat AWS_ATM_Surveillance_Project_README.md
+
+git status
+
+git add AWS_ATM_Surveillance_Project_README.md
+
+git status
+
+git commit -m "Add Day 76 AWS ATM surveillance project README"
+
+git push
+
+python daily_github.py --complete
+
+git status
+
+git add daily_log.json
+
+git commit -m "Mark task 76 as completed"
+
+git push
+
+notepad "Daily Tracker 2026"
+
+touch "Daily Commands/Day_76_Git_Commands.txt"
+
+notepad "Daily Commands/Day_76_Git_Commands.txt"
+
+git add "Daily Commands/Day_76_Git_Commands.txt"
+
+git commit -m "Add day 76 git command history"
+
+git push
+
+git status
