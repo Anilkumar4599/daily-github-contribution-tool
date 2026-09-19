@@ -1,0 +1,55 @@
+DAY 78 – GIT COMMAND HISTORY
+Date: 2026-09-19
+Task: #78
+Domain: AWS
+Work: Create an AWS deployment checklist.
+
+Commands:
+
+python daily_github.py
+
+cd ~/Downloads/Daily_GitHub_Contribution_Tool
+
+touch AWS_Deployment_Checklist.md
+
+notepad AWS_Deployment_Checklist.md
+
+ls -l AWS_Deployment_Checklist.md
+
+grep -n "Pre-Deployment Checklist\|Security and Access Checklist\|Deployment Checklist\|Post-Deployment Validation Checklist\|Rollback Checklist\|Test Cases\|Assumptions and Limitations" AWS_Deployment_Checklist.md
+
+grep -n "Test Case [1-5]\|TC0[1-5]" AWS_Deployment_Checklist.md
+
+cat AWS_Deployment_Checklist.md
+
+git status
+
+git add AWS_Deployment_Checklist.md
+
+git commit -m "Add Day 78 AWS deployment checklist"
+
+git push
+
+python daily_github.py --complete
+
+git status
+
+git add daily_log.json
+
+git commit -m "Mark task 78 as completed"
+
+git push
+
+notepad "Daily Tracker 2026"
+
+touch "Daily Commands/Day_78_Git_Commands.txt"
+
+notepad "Daily Commands/Day_78_Git_Commands.txt"
+
+git add "Daily Commands/Day_78_Git_Commands.txt"
+
+git commit -m "Add day 78 git command history"
+
+git push
+
+git status
