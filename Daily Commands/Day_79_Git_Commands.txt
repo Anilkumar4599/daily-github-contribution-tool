@@ -1,0 +1,55 @@
+DAY 79 – GIT COMMAND HISTORY
+Date: 2026-09-20
+Task: #79
+Domain: AWS
+Work: Document the difference between EC2, S3 and RDS.
+
+Commands:
+
+python daily_github.py
+
+cd ~/Downloads/Daily_GitHub_Contribution_Tool
+
+touch AWS_EC2_S3_RDS_Comparison.md
+
+notepad AWS_EC2_S3_RDS_Comparison.md
+
+ls -l AWS_EC2_S3_RDS_Comparison.md
+
+grep -n "What is Amazon EC2\|What is Amazon S3\|What is Amazon RDS\|EC2 vs S3 vs RDS\|Example Input\|Expected Output\|Validation Test Cases" AWS_EC2_S3_RDS_Comparison.md
+
+grep -n "Test Case [1-5]" AWS_EC2_S3_RDS_Comparison.md
+
+cat AWS_EC2_S3_RDS_Comparison.md
+
+git status
+
+git add AWS_EC2_S3_RDS_Comparison.md
+
+git commit -m "Add Day 79 EC2 S3 and RDS comparison"
+
+git push
+
+python daily_github.py --complete
+
+git status
+
+git add daily_log.json
+
+git commit -m "Mark task 79 as completed"
+
+git push
+
+notepad "Daily Tracker 2026"
+
+touch "Daily Commands/Day_79_Git_Commands.txt"
+
+notepad "Daily Commands/Day_79_Git_Commands.txt"
+
+git add "Daily Commands/Day_79_Git_Commands.txt"
+
+git commit -m "Add day 79 git command history"
+
+git push
+
+git status
