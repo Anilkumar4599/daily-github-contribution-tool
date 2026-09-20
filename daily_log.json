@@ -202,5 +202,11 @@
     "domain": "AWS",
     "task": "Create an AWS deployment checklist.",
     "completed": true
+  },
+  "2026-09-20": {
+    "task_id": 79,
+    "domain": "AWS",
+    "task": "Document the difference between EC2, S3 and RDS.",
+    "completed": true
   }
 }
