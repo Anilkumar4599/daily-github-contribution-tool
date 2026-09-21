@@ -208,5 +208,11 @@
     "domain": "AWS",
     "task": "Document the difference between EC2, S3 and RDS.",
     "completed": true
+  },
+  "2026-09-21": {
+    "task_id": 80,
+    "domain": "AWS",
+    "task": "Create a simple cloud architecture proposal.",
+    "completed": true
   }
 }
