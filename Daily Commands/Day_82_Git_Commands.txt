@@ -1,0 +1,47 @@
+python daily_github.py
+
+touch Technical_Glossary_Day_82.md
+touch Technical_Glossary_README.md
+
+notepad Technical_Glossary_Day_82.md
+notepad Technical_Glossary_README.md
+
+ls -l Technical_Glossary*
+
+grep -n "Input Validation" Technical_Glossary_Day_82.md
+grep -n "Sample input dataset" Technical_Glossary_Day_82.md
+grep -n "Assumptions" Technical_Glossary_Day_82.md
+grep -n "Input Validation" Technical_Glossary_README.md
+
+cat Technical_Glossary_README.md
+cat Technical_Glossary_Day_82.md
+
+git status
+git add Technical_Glossary_Day_82.md Technical_Glossary_README.md
+git status
+git commit -m "Add Day 82 technical glossary and README"
+git push
+
+python daily_github.py --complete
+
+git status
+git add daily_log.json
+git commit -m "Mark task 82 as completed"
+git push
+
+notepad "Daily Tracker 2026"
+
+touch "Daily Commands/Day_82_Git_Commands.txt"
+notepad "Daily Commands/Day_82_Git_Commands.txt"
+
+git add "Daily Commands/Day_82_Git_Commands.txt"
+git commit -m "Add Day 82 git command history"
+git push
+
+git status
+python daily_github.py
+
+
+
+
+
