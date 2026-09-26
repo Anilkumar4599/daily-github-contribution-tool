@@ -1,0 +1,36 @@
+$ python daily_github.py
+
+touch Lessons_Learned_Day_85.md
+notepad Lessons_Learned_Day_85.md
+
+grep -n "Documentation Is Not the Same as Practical Experience" Lessons_Learned_Day_85.md
+grep -n "Start Simple Before Automating" Lessons_Learned_Day_85.md
+grep -n "Data Quality Comes Before Analysis" Lessons_Learned_Day_85.md
+grep -n "Power BI Requires Hands-On Practice" Lessons_Learned_Day_85.md
+grep -n "AWS Requires Controlled Practical Exercises" Lessons_Learned_Day_85.md
+grep -n "Simple Learning Framework" Lessons_Learned_Day_85.md
+
+git status
+git add Lessons_Learned_Day_85.md
+git status
+git commit -m "Add Day 85 lessons learned"
+git push
+
+python daily_github.py --complete
+
+git status
+git add daily_log.json
+git commit -m "Mark task 85 as completed"
+git push
+
+notepad "Daily Tracker 2026"
+Day 85 | 26-Sep-2026 | Documentation | Lessons Learned | Completed
+
+touch "Daily Commands/Day_85_Git_Commands.txt"
+notepad "Daily Commands/Day_85_Git_Commands.txt"
+
+git add "Daily Commands/Day_85_Git_Commands.txt"
+git commit -m "Add Day 85 git command history"
+git push
+
+
