@@ -1,0 +1,35 @@
+$ python daily_github.py
+
+touch Project_Retrospective_Day_86.md
+notepad Project_Retrospective_Day_86.md
+
+grep -n "Project Objectives" Project_Retrospective_Day_86.md
+grep -n "Small Sample Project Dataset" Project_Retrospective_Day_86.md
+grep -n "What Went Well" Project_Retrospective_Day_86.md
+grep -n "What Did Not Go as Planned" Project_Retrospective_Day_86.md
+grep -n "Retrospective Action Plan" Project_Retrospective_Day_86.md
+grep -n "Assumptions" Project_Retrospective_Day_86.md
+
+git status
+git add Project_Retrospective_Day_86.md
+git status
+git commit -m "Add Day 86 project retrospective"
+git push
+
+python daily_github.py --complete
+
+git status
+git add daily_log.json
+git commit -m "Mark task 86 as completed"
+git push
+
+notepad "Daily Tracker 2026"
+Day 86 | 27-Sep-2026 | Documentation | Project Retrospective | Completed
+
+
+touch "Daily Commands/Day_86_Git_Commands.txt"
+notepad "Daily Commands/Day_86_Git_Commands.txt"
+
+git add "Daily Commands/Day_86_Git_Commands.txt"
+git commit -m "Add Day 86 git command history"
+git push
