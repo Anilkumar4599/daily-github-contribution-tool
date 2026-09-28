@@ -1,0 +1,43 @@
+DAY 87 - GIT COMMAND HISTORY
+Date: 2026-09-28
+Task: #87 - Create a professional project README
+
+Commands used:
+
+python daily_github.py
+
+touch Project_README_Day_87.md
+notepad Project_README_Day_87.md
+
+touch Input_Validation_Day_87.md
+notepad Input_Validation_Day_87.md
+
+ls -l Project_README_Day_87.md Input_Validation_Day_87.md
+
+grep -n "Input Validation" Project_README_Day_87.md
+
+grep -n "Test Case" Input_Validation_Day_87.md
+
+git status
+
+git add Project_README_Day_87.md Input_Validation_Day_87.md
+
+git commit -m "Add Day 87 project README and input validation"
+
+git push
+
+python daily_github.py --complete
+
+python daily_github.py
+
+git add daily_log.json
+
+git commit -m "Mark task 87 as completed"
+
+git push
+
+notepad "Daily Tracker 2026"
+
+touch "Daily Commands/Day_87_Git_Commands.txt"
+
+notepad "Daily Commands/Day_87_Git_Commands.txt"
