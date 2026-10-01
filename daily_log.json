@@ -268,5 +268,11 @@
     "domain": "Documentation",
     "task": "Document one manual process that could be automated.",
     "completed": true
+  },
+  "2026-10-01": {
+    "task_id": 90,
+    "domain": "Documentation",
+    "task": "Write a one-page explanation of a technical concept you learned this week.",
+    "completed": true
   }
 }
