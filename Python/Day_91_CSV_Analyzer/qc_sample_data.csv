@@ -1,0 +1,9 @@
+Defect_No,Date,Module,Priority,Status,Owner
+D001,2026-10-01,Camera,High,Open,HW
+D002,2026-10-01,Router,Critical,Working,SW
+D003,2026-10-01,NVR,Medium,Closed,HW
+D004,2026-10-02,Power,High,Open,HW
+D005,2026-10-02,Camera,Low,Closed,SW
+D006,2026-10-02,Router,High,Open,SW
+D007,2026-10-02,NVR,Medium,Working,HW
+D008,2026-10-02,Camera,Critical,Open,HW
