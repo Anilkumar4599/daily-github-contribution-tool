@@ -1,0 +1,70 @@
+DAY 91 - GIT COMMAND HISTORY
+Date: 2026-10-02
+Task: #91 - Python CSV Analyzer
+
+Commands used:
+
+python daily_github.py
+
+mkdir -p "Python/Day_91_CSV_Analyzer"
+cd "Python/Day_91_CSV_Analyzer"
+
+pwd
+
+touch qc_sample_data.csv
+notepad qc_sample_data.csv
+
+cat qc_sample_data.csv
+
+wc -l qc_sample_data.csv
+
+touch csv_analyzer.py
+notepad csv_analyzer.py
+
+python csv_analyzer.py
+
+touch test_small.csv
+notepad test_small.csv
+
+python csv_analyzer.py
+
+touch empty_test.csv
+
+python csv_analyzer.py
+
+touch README.md
+notepad README.md
+
+ls -l
+
+python csv_analyzer.py
+
+python -m py_compile csv_analyzer.py
+
+cd ../..
+
+pwd
+
+git status
+
+git add "Python/Day_91_CSV_Analyzer"
+
+git commit -m "Add Day 91 Python CSV analyzer"
+
+git push
+
+python daily_github.py --complete
+
+python daily_github.py
+
+git add daily_log.json
+
+git commit -m "Mark task 91 as completed"
+
+git push
+
+notepad "Daily Tracker 2026"
+
+touch "Daily Commands/Day_91_Git_Commands.txt"
+
+notepad "Daily Commands/Day_91_Git_Commands.txt"
