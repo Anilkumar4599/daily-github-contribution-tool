@@ -1,0 +1,33 @@
+DAY 97 - GIT COMMAND HISTORY
+Date: 2026-10-08
+Task: #97
+Domain: Python
+Project: CSV Summary Report
+
+Project folder:
+Python/Day_97_CSV_Summary_Report/
+
+Main files:
+README.md
+csv_summary_report.py
+sample_procurement.csv
+invalid_test.csv
+
+Git commands:
+
+git status
+git add "Python/Day_97_CSV_Summary_Report/README.md"
+git add "Python/Day_97_CSV_Summary_Report/csv_summary_report.py"
+git add "Python/Day_97_CSV_Summary_Report/sample_procurement.csv"
+git add "Python/Day_97_CSV_Summary_Report/invalid_test.csv"
+git commit -m "Add Day 97 CSV summary report"
+git push
+
+python daily_github.py --complete
+python daily_github.py
+
+git add daily_log.json
+git commit -m "Mark Day 97 as completed"
+git push
+
+git status
