@@ -1,0 +1,9 @@
+PO Number,Vendor,Item,Ordered Qty,Received Qty,Status
+PO1001,Vendor A,Router,10,10,Completed
+PO1002,Vendor B,Camera,20,18,Partial
+PO1003,Vendor C,Switch,15,15,Completed
+PO1004,Vendor A,UPS,8,5,Partial
+PO1005,Vendor D,Router,12,0,Pending
+PO1006,Vendor B,Camera,10,10,Completed
+PO1007,Vendor C,Switch,20,17,Partial
+PO1008,Vendor A,UPS,5,5,Completed
