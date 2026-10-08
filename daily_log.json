@@ -298,5 +298,17 @@
     "domain": "Python",
     "task": "Create a script that renames files in a folder using a consistent naming pattern.",
     "completed": true
+  },
+  "2026-10-07": {
+    "task_id": 96,
+    "domain": "Python",
+    "task": "Write a Python function to validate an email address using basic string rules.",
+    "completed": true
+  },
+  "2026-10-08": {
+    "task_id": 97,
+    "domain": "Python",
+    "task": "Create a script that converts an Excel-style table exported as CSV into a summary report.",
+    "completed": true
   }
 }
