@@ -310,5 +310,11 @@
     "domain": "Python",
     "task": "Create a script that converts an Excel-style table exported as CSV into a summary report.",
     "completed": true
+  },
+  "2026-10-09": {
+    "task_id": 98,
+    "domain": "Python",
+    "task": "Write a function that identifies missing values in a CSV column.",
+    "completed": true
   }
 }
