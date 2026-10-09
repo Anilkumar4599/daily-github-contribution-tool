@@ -1,0 +1,7 @@
+PO Number,Vendor,Item,Ordered Qty
+PO1001,Vendor A,Router,10
+PO1002,,Camera,20
+PO1003,Vendor C,,15
+,Vendor D,UPS,8
+PO1005,Vendor B,Switch,
+PO1006,Vendor A,Camera,10
