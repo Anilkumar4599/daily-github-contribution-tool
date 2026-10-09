@@ -1,0 +1,46 @@
+DAY 98 — GIT COMMAND HISTORY
+
+Date: 2026-10-09  
+Task: #98  
+Domain: Python  
+Project: CSV Missing Values Detector
+
+Project files:
+- Python/Day_98_CSV_Missing_Values/README.md
+- Python/Day_98_CSV_Missing_Values/missing_values_detector.py
+- Python/Day_98_CSV_Missing_Values/sample_data.csv
+
+Commands used:
+
+mkdir -p "Python/Day_98_CSV_Missing_Values"
+cd "Python/Day_98_CSV_Missing_Values"
+
+notepad sample_data.csv
+notepad missing_values_detector.py
+python missing_values_detector.py
+
+python -c "from missing_values_detector import find_missing_values; print(find_missing_values('sample_data.csv', 'Vendor'))"
+
+python -c "from missing_values_detector import find_missing_values; print(find_missing_values('sample_data.csv', 'PO Number'))"
+
+python -c "from missing_values_detector import find_missing_values; print(find_missing_values('sample_data.csv', 'Item'))"
+
+python -c "from missing_values_detector import find_missing_values; find_missing_values('sample_data.csv', 'Unknown Column')"
+
+notepad README.md
+
+git add "Python/Day_98_CSV_Missing_Values/README.md"
+git add "Python/Day_98_CSV_Missing_Values/missing_values_detector.py"
+git add "Python/Day_98_CSV_Missing_Values/sample_data.csv"
+
+git commit -m "Add Day 98 CSV missing values detector"
+git push
+
+python daily_github.py --complete
+python daily_github.py
+
+git add daily_log.json
+git commit -m "Mark Day 98 as completed"
+git push
+
+git status
