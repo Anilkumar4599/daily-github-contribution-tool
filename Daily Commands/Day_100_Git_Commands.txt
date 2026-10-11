@@ -1,0 +1,53 @@
+DAY 100 — GIT COMMAND HISTORY
+
+Date: 2026-10-11  
+Task: #100  
+Domain: Python  
+Project: CSV Comparison Tool
+
+Project folder:
+Python/Day_100_CSV_Comparison/
+
+Files:
+- compare_csv.py
+- old_report.csv
+- new_report.csv
+- invalid_report.csv
+- duplicate_report.csv
+- README.md
+
+Main commands:
+
+cd ~/Downloads/Daily_GitHub_Contribution_Tool
+mkdir -p "Python/Day_100_CSV_Comparison"
+cd "Python/Day_100_CSV_Comparison"
+
+notepad old_report.csv
+notepad new_report.csv
+notepad compare_csv.py
+
+python compare_csv.py
+python -m py_compile compare_csv.py
+
+python -c "from compare_csv import read_csv; read_csv('missing.csv')"
+python -c "from compare_csv import read_csv; read_csv('invalid_report.csv')"
+python -c "from compare_csv import read_csv; read_csv('duplicate_report.csv')"
+
+notepad README.md
+
+git add "Python/Day_100_CSV_Comparison/compare_csv.py"
+git add "Python/Day_100_CSV_Comparison/old_report.csv"
+git add "Python/Day_100_CSV_Comparison/new_report.csv"
+git add "Python/Day_100_CSV_Comparison/invalid_report.csv"
+git add "Python/Day_100_CSV_Comparison/duplicate_report.csv"
+git add "Python/Day_100_CSV_Comparison/README.md"
+
+git commit -m "Add Day 100 CSV comparison tool"
+git push
+
+python daily_github.py --complete
+python daily_github.py
+
+git add daily_log.json
+git commit -m "Mark Day 100 as completed"
+git push
