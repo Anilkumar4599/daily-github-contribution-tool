@@ -316,5 +316,11 @@
     "domain": "Python",
     "task": "Write a function that identifies missing values in a CSV column.",
     "completed": true
+  },
+  "2026-10-11": {
+    "task_id": 100,
+    "domain": "Python",
+    "task": "Build a Python script that compares two CSV files and reports new, missing and changed records.",
+    "completed": true
   }
 }
