@@ -1,0 +1,46 @@
+DAY 101 — GIT COMMAND HISTORY
+
+Date: 2026-10-12
+Task: #101
+Domain: Automation
+Project: Purchase-Order Follow-up Tracker
+
+Project files:
+- README.md
+- po_follow_up_tracker.py
+- sample_po_data.csv
+- po_follow_up_report.csv
+- invalid_po_data.csv
+
+Main commands:
+
+mkdir -p "Automation/Day_101_PO_Follow_Up_Tracker"
+cd "Automation/Day_101_PO_Follow_Up_Tracker"
+
+notepad sample_po_data.csv
+notepad po_follow_up_tracker.py
+python po_follow_up_tracker.py
+
+python -c "from po_follow_up_tracker import load_po_data; load_po_data('missing.csv')"
+notepad invalid_po_data.csv
+python -c "from po_follow_up_tracker import load_po_data; load_po_data('invalid_po_data.csv')"
+
+notepad README.md
+python -m py_compile po_follow_up_tracker.py
+git diff --check
+
+git add "Automation/Day_101_PO_Follow_Up_Tracker/README.md"
+git add "Automation/Day_101_PO_Follow_Up_Tracker/po_follow_up_tracker.py"
+git add "Automation/Day_101_PO_Follow_Up_Tracker/sample_po_data.csv"
+git add "Automation/Day_101_PO_Follow_Up_Tracker/po_follow_up_report.csv"
+git add "Automation/Day_101_PO_Follow_Up_Tracker/invalid_po_data.csv"
+
+git commit -m "Add Day 101 purchase order follow-up tracker"
+git push
+
+python daily_github.py --complete
+python daily_github.py
+
+git add daily_log.json
+git commit -m "Mark Day 101 as completed"
+git push
