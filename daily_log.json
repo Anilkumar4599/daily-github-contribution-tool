@@ -322,5 +322,11 @@
     "domain": "Python",
     "task": "Build a Python script that compares two CSV files and reports new, missing and changed records.",
     "completed": true
+  },
+  "2026-10-12": {
+    "task_id": 101,
+    "domain": "Automation",
+    "task": "Create a purchase-order follow-up tracker from a sample CSV.",
+    "completed": true
   }
 }
