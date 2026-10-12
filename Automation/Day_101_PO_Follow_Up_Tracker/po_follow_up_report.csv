@@ -1,0 +1,7 @@
+PO Number,Vendor,Item,Ordered Qty,Received Qty,Pending Qty,Expected Date,Delay Days,Status,Follow-up Priority
+PO101,Vendor A,Router,10,10,0,2026-10-08,0,Completed,No Follow-up
+PO102,Vendor B,Camera,20,12,8,2026-10-10,2,Overdue,High
+PO103,Vendor C,UPS,8,0,8,2026-10-15,0,Pending,Monitor
+PO104,Vendor D,Switch,15,5,10,2026-10-05,7,Overdue,High
+PO105,Vendor A,Camera,12,12,0,2026-10-12,0,Completed,No Follow-up
+PO106,Vendor E,Router,25,0,25,2026-10-09,3,Overdue,High
