@@ -1,0 +1,64 @@
+﻿PO Number,Vendor,Vendor Email,Pending Qty,Delay Days,Email Subject,Email Body
+PO201,Vendor Alpha,alpha@example.com,4,5,Delivery Status Follow-up - PO PO201,"Dear Vendor Alpha,
+
+We are following up on the outstanding delivery against the following purchase order:
+
+PO Number: PO201
+Item: Router
+Ordered Quantity: 10
+Received Quantity: 6
+Pending Quantity: 4
+Expected Delivery Date: 2026-10-08
+Delay: 5 day(s)
+
+Please confirm the current dispatch/delivery status and your revised delivery date for the pending quantity.
+
+Kindly share any relevant shipment details and inform us promptly if there are constraints affecting delivery.
+
+Thank you for your support.
+
+Best regards,
+Procurement Team
+"
+PO203,Vendor Gamma,gamma@example.com,8,2,Delivery Status Follow-up - PO PO203,"Dear Vendor Gamma,
+
+We are following up on the outstanding delivery against the following purchase order:
+
+PO Number: PO203
+Item: UPS
+Ordered Quantity: 8
+Received Quantity: 0
+Pending Quantity: 8
+Expected Delivery Date: 2026-10-11
+Delay: 2 day(s)
+
+Please confirm the current dispatch/delivery status and your revised delivery date for the pending quantity.
+
+Kindly share any relevant shipment details and inform us promptly if there are constraints affecting delivery.
+
+Thank you for your support.
+
+Best regards,
+Procurement Team
+"
+PO205,Vendor Alpha,alpha@example.com,2,4,Delivery Status Follow-up - PO PO205,"Dear Vendor Alpha,
+
+We are following up on the outstanding delivery against the following purchase order:
+
+PO Number: PO205
+Item: Camera
+Ordered Quantity: 12
+Received Quantity: 10
+Pending Quantity: 2
+Expected Delivery Date: 2026-10-09
+Delay: 4 day(s)
+
+Please confirm the current dispatch/delivery status and your revised delivery date for the pending quantity.
+
+Kindly share any relevant shipment details and inform us promptly if there are constraints affecting delivery.
+
+Thank you for your support.
+
+Best regards,
+Procurement Team
+"
