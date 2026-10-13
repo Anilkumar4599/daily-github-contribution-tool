@@ -328,5 +328,11 @@
     "domain": "Automation",
     "task": "Create a purchase-order follow-up tracker from a sample CSV.",
     "completed": true
+  },
+  "2026-10-13": {
+    "task_id": 102,
+    "domain": "Automation",
+    "task": "Build a script that generates a vendor follow-up email draft from PO data.",
+    "completed": true
   }
 }
