@@ -1,0 +1,7 @@
+﻿Invoice Number,Vendor,PO Number,Invoice Date,Credit Days,Due Date,Invoice Amount,Payment Status,Days Overdue,Credit Status,Follow-up Priority
+INV001,Vendor Alpha,PO301,2026-09-01,30,2026-10-01,25000.00,Unpaid,14,Overdue,High
+INV002,Vendor Beta,PO302,2026-10-01,30,2026-10-31,18000.00,Unpaid,0,Within Credit Period,Monitor
+INV003,Vendor Gamma,PO303,2026-09-20,15,2026-10-05,12000.00,Unpaid,10,Overdue,High
+INV004,Vendor Delta,PO304,2026-09-01,45,2026-10-16,40000.00,Unpaid,0,Within Credit Period,Monitor
+INV005,Vendor Epsilon,PO305,2026-09-01,30,2026-10-01,15000.00,Paid,0,Paid,No Follow-up
+INV006,Vendor Alpha,PO306,2026-10-05,15,2026-10-20,9000.00,Unpaid,0,Within Credit Period,Monitor

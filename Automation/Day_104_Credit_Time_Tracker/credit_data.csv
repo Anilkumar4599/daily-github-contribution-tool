@@ -1,0 +1,7 @@
+Invoice Number,Vendor,PO Number,Invoice Date,Credit Days,Invoice Amount,Payment Status
+INV001,Vendor Alpha,PO301,2026-09-01,30,25000,Unpaid
+INV002,Vendor Beta,PO302,2026-10-01,30,18000,Unpaid
+INV003,Vendor Gamma,PO303,2026-09-20,15,12000,Unpaid
+INV004,Vendor Delta,PO304,2026-09-01,45,40000,Unpaid
+INV005,Vendor Epsilon,PO305,2026-09-01,30,15000,Paid
+INV006,Vendor Alpha,PO306,2026-10-05,15,9000,Unpaid

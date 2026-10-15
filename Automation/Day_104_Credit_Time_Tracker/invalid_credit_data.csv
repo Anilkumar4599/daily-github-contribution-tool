@@ -1,0 +1,2 @@
+Invoice Number,Vendor,PO Number,Invoice Date,Credit Days,Invoice Amount,Payment Status
+INV999,Vendor Test,PO999,2026-10-01,-30,10000,Unpaid
