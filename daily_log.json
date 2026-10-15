@@ -334,5 +334,11 @@
     "domain": "Automation",
     "task": "Build a script that generates a vendor follow-up email draft from PO data.",
     "completed": true
+  },
+  "2026-10-15": {
+    "task_id": 104,
+    "domain": "Automation",
+    "task": "Build a script that flags overdue procurement items based on credit time.",
+    "completed": true
   }
 }
