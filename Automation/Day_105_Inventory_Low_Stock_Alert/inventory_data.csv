@@ -1,0 +1,8 @@
+Item Code,Item Name,Category,Current Stock,Minimum Stock,Reorder Quantity,Unit
+CAM001,Indoor Camera,Camera,4,10,20,Nos
+RTR001,Network Router,Network,12,10,15,Nos
+PWR001,Power Supply,Power,3,8,20,Nos
+CAB001,Network Cable,Cable,25,10,20,Nos
+UPS001,DC UPS,Power,0,5,10,Nos
+SEN001,Door Sensor,Sensor,6,6,15,Nos
+MON001,LED Monitor,Display,2,5,8,Nos
