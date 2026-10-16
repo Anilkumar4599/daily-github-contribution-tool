@@ -1,0 +1,50 @@
+DAY 105 — GIT COMMAND HISTORY
+
+Date: 2026-10-16
+Task: #105
+Domain: Automation
+Project: Inventory Low-Stock Alert Report
+
+Project files:
+- README.md
+- inventory_data.csv
+- inventory_alert.py
+- low_stock_alert_report.csv
+- invalid_inventory.csv
+
+Main commands:
+
+cd ~/Downloads/Daily_GitHub_Contribution_Tool
+mkdir -p "Automation/Day_105_Inventory_Low_Stock_Alert"
+cd "Automation/Day_105_Inventory_Low_Stock_Alert"
+
+notepad inventory_data.csv
+notepad inventory_alert.py
+python inventory_alert.py
+
+python -c "from inventory_alert import load_inventory; load_inventory('missing.csv')"
+
+notepad invalid_inventory.csv
+python -c "from inventory_alert import load_inventory; load_inventory('invalid_inventory.csv')"
+
+python -c "from inventory_alert import load_inventory, analyze_inventory; rows=load_inventory('inventory_data.csv'); report=analyze_inventory(rows); print([(r['Item Code'],r['Stock Status'],r['Shortage to Minimum']) for r in report])"
+
+notepad README.md
+python -m py_compile inventory_alert.py
+git diff --check
+
+git add "Automation/Day_105_Inventory_Low_Stock_Alert/README.md"
+git add "Automation/Day_105_Inventory_Low_Stock_Alert/inventory_data.csv"
+git add "Automation/Day_105_Inventory_Low_Stock_Alert/inventory_alert.py"
+git add "Automation/Day_105_Inventory_Low_Stock_Alert/low_stock_alert_report.csv"
+git add "Automation/Day_105_Inventory_Low_Stock_Alert/invalid_inventory.csv"
+
+git commit -m "Add Day 105 inventory low stock alert report"
+git push
+
+python daily_github.py --complete
+python daily_github.py
+
+git add daily_log.json
+git commit -m "Mark Day 105 as completed"
+git push
