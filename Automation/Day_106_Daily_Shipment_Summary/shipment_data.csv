@@ -1,0 +1,9 @@
+Shipment ID,PO Number,Vendor,Destination,Dispatch Date,Expected Delivery Date,Actual Delivery Date,Status,Transport Mode
+SHP001,PO1001,ABC Electronics,Chennai,2026-10-10,2026-10-13,2026-10-12,Delivered,Surface
+SHP002,PO1002,XYZ Networks,Bengaluru,2026-10-11,2026-10-14,2026-10-16,Delivered,Air
+SHP003,PO1003,PowerTech Supplies,Hyderabad,2026-10-12,2026-10-16,,In Transit,Surface
+SHP004,PO1004,SecureVision Ltd,Mumbai,2026-10-13,2026-10-15,,In Transit,Air
+SHP005,PO1005,CableWorld,Pune,2026-10-14,2026-10-18,,In Transit,Surface
+SHP006,PO1006,ElectroParts India,Delhi,2026-10-09,2026-10-12,2026-10-12,Delivered,Air
+SHP007,PO1007,CameraWorks,Coimbatore,2026-10-15,2026-10-17,2026-10-17,Delivered,Surface
+SHP008,PO1008,NetworkPro,Kochi,2026-10-15,2026-10-16,,In Transit,Surface

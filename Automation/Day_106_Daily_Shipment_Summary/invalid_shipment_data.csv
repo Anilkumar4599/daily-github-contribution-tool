@@ -1,0 +1,2 @@
+Shipment ID,PO Number,Vendor,Destination,Dispatch Date,Expected Delivery Date,Actual Delivery Date,Status,Transport Mode
+BAD001,PO9991,Test Vendor,Chennai,2026-10-12,2026-10-15,2026-10-11,Delivered,Air
