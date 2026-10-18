@@ -1,0 +1,57 @@
+
+DAY 107 - SPARE-OUTWARD SUMMARY GROUPED BY ITEM
+Date: 2026-10-18
+
+1. Open the repository:
+   cd ~/Downloads/Daily_GitHub_Contribution_Tool
+
+2. Create project folder:
+   mkdir -p "Automation/Day_107_Spare_Outward_Summary"
+
+3. Create project files:
+   spare_outward_data.csv
+   spare_outward_summary.py
+   README.md
+   invalid_spare_data.csv
+
+4. Run the automation:
+   cd "Automation/Day_107_Spare_Outward_Summary"
+   python spare_outward_summary.py
+
+5. Validate:
+   python -m py_compile spare_outward_summary.py
+   python -c "from spare_outward_summary import load_transactions; load_transactions('invalid_spare_data.csv')"
+   python -c "from spare_outward_summary import load_transactions; load_transactions('missing_spare_data.csv')"
+   git diff --check
+
+6. Return to repository root:
+   cd ~/Downloads/Daily_GitHub_Contribution_Tool
+
+7. Stage the project:
+   git add "Automation/Day_107_Spare_Outward_Summary/README.md"
+   git add "Automation/Day_107_Spare_Outward_Summary/spare_outward_data.csv"
+   git add "Automation/Day_107_Spare_Outward_Summary/spare_outward_summary.py"
+   git add "Automation/Day_107_Spare_Outward_Summary/spare_outward_summary.csv"
+   git add "Automation/Day_107_Spare_Outward_Summary/invalid_spare_data.csv"
+
+8. Commit and push:
+   git status
+   git diff --cached --check
+   git commit -m "Add Day 107 spare outward summary automation"
+   git push
+
+9. Update the tracker:
+   python daily_github.py --complete
+   python daily_github.py
+   git add daily_log.json
+   git commit -m "Mark Day 107 as completed"
+   git push
+
+10. Save command history:
+    git add "Daily Commands/Day_107_Git_Commands.txt"
+    git commit -m "Add Day 107 git command history"
+    git push
+
+11. Final verification:
+    git status
+    python daily_github.py
