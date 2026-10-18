@@ -352,5 +352,11 @@
     "domain": "Automation",
     "task": "Build a daily shipment summary from sample shipment data.",
     "completed": true
+  },
+  "2026-10-18": {
+    "task_id": 107,
+    "domain": "Automation",
+    "task": "Create a spare-outward summary grouped by item.",
+    "completed": true
   }
 }
