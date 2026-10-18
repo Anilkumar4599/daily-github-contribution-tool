@@ -1,0 +1,11 @@
+Transaction ID,Transaction Date,Item Code,Item Name,Category,Quantity Issued,Unit,Destination,Reference
+OUT001,2026-10-14,CAM001,Indoor Camera,Camera,3,Nos,Chennai,SRV1001
+OUT002,2026-10-14,PWR001,Power Supply,Power,5,Nos,Bengaluru,SRV1002
+OUT003,2026-10-15,CAM001,Indoor Camera,Camera,2,Nos,Hyderabad,SRV1003
+OUT004,2026-10-15,CAB001,Network Cable,Cable,10,Meters,Chennai,SRV1004
+OUT005,2026-10-15,PWR001,Power Supply,Power,4,Nos,Mumbai,SRV1005
+OUT006,2026-10-16,UPS001,DC UPS,Power,2,Nos,Delhi,SRV1006
+OUT007,2026-10-16,CAM001,Indoor Camera,Camera,1,Nos,Bengaluru,SRV1007
+OUT008,2026-10-17,CAB001,Network Cable,Cable,15,Meters,Hyderabad,SRV1008
+OUT009,2026-10-17,SEN001,Door Sensor,Sensor,6,Nos,Chennai,SRV1009
+OUT010,2026-10-17,PWR001,Power Supply,Power,3,Nos,Chennai,SRV1010

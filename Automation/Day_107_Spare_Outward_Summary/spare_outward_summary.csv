@@ -1,0 +1,6 @@
+﻿Item Code,Item Name,Category,Unit,Transaction Count,Total Quantity Issued,Unique Destinations,First Transaction Date,Last Transaction Date
+CAB001,Network Cable,Cable,Meters,2,25,2,2026-10-15,2026-10-17
+CAM001,Indoor Camera,Camera,Nos,3,6,3,2026-10-14,2026-10-16
+PWR001,Power Supply,Power,Nos,3,12,3,2026-10-14,2026-10-17
+SEN001,Door Sensor,Sensor,Nos,1,6,1,2026-10-17,2026-10-17
+UPS001,DC UPS,Power,Nos,1,2,1,2026-10-16,2026-10-16
