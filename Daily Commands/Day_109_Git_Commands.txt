@@ -1,0 +1,5 @@
+git add "Daily Commands/Day_109_Git_Commands.txt"
+git commit -m "Add Day 109 git command history"
+git push
+git status
+python daily_github.py
