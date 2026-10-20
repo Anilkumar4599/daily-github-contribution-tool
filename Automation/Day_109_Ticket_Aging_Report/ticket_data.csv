@@ -1,0 +1,9 @@
+Ticket ID,Ticket Title,Priority,Status,Open Date,Assigned Team
+TKT001,ATM camera no video,Critical,Open,2026-10-10,Hardware
+TKT002,Power supply failure,High,Open,2026-10-12,Hardware
+TKT003,Network connectivity issue,High,In Progress,2026-10-14,Software
+TKT004,Intermittent camera restart,Medium,Open,2026-10-16,Hardware
+TKT005,Application login issue,High,Closed,2026-10-05,Software
+TKT006,Door sensor not responding,Medium,Open,2026-10-08,Hardware
+TKT007,Dashboard display issue,Low,In Progress,2026-10-18,Software
+TKT008,UPS backup failure,Critical,Open,2026-10-11,Hardware

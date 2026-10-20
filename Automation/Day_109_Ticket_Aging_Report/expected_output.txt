@@ -1,0 +1,6 @@
+Report date: 2026-10-20
+Total tickets: 8
+Open / in-progress tickets: 7
+Closed tickets: 1
+Overdue open tickets (>5 days): 4
+Critical open tickets: 2
