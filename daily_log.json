@@ -358,5 +358,11 @@
     "domain": "Automation",
     "task": "Create a spare-outward summary grouped by item.",
     "completed": true
+  },
+  "2026-10-20": {
+    "task_id": 109,
+    "domain": "Automation",
+    "task": "Create a simple ticket-aging report.",
+    "completed": true
   }
 }
