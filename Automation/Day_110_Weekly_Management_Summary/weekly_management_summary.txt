@@ -1,0 +1,21 @@
+WEEKLY MANAGEMENT SUMMARY
+==============================
+Reporting period: 2026-10-14 to 2026-10-20
+Report generated for: 2026-10-21
+
+OVERALL KPIs
+Tickets created during the week: 8
+Open tickets: 4
+In-progress tickets: 1
+Closed tickets: 3
+Critical open tickets: 1
+Overdue open tickets (> 5 days): 1
+Records outside reporting week: 2
+
+TEAM-WISE SUMMARY
+Hardware: Total=3, Open=1, In Progress=0, Closed=2, Critical Open=1, Overdue Open=1
+Service: Total=3, Open=2, In Progress=1, Closed=0, Critical Open=0, Overdue Open=0
+Software: Total=2, Open=1, In Progress=0, Closed=1, Critical Open=0, Overdue Open=0
+
+OVERDUE TICKETS REQUIRING FOLLOW-UP
+TKT104 | Critical | 6 days | Open | Team: Hardware

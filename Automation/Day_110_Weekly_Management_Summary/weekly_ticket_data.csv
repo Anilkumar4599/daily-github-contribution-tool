@@ -1,0 +1,11 @@
+Ticket ID,Priority,Status,Assigned Team,Created Date
+TKT101,Critical,Open,Hardware,2026-10-12
+TKT102,High,In Progress,Software,2026-10-13
+TKT103,Medium,Closed,Hardware,2026-10-14
+TKT104,Critical,Open,Hardware,2026-10-15
+TKT105,High,Closed,Software,2026-10-16
+TKT106,Low,Open,Service,2026-10-17
+TKT107,High,In Progress,Service,2026-10-18
+TKT108,Medium,Open,Software,2026-10-19
+TKT109,Critical,Closed,Hardware,2026-10-20
+TKT110,Medium,Open,Service,2026-10-20
