@@ -1,0 +1,38 @@
+490  python daily_github.py
+  491  cd ~/Downloads/Daily_GitHub_Contribution_Tool
+  492  mkdir -p "Automation/Day_110_Weekly_Management_Summary"
+  493  cd "Automation/Day_110_Weekly_Management_Summary"
+  494  notepad weekly_ticket_data.csv
+  495  notepad weekly_management_summary.py
+  496  python weekly_management_summary.py
+  498  notepad invalid_ticket_data.csv
+  507  python -c "from weekly_management_summary import load_tickets; load_tickets('invalid_ticket_data.csv')"
+  508  python -m py_compile weekly_management_summary.py
+  509  python weekly_management_summary.py
+  510  notepad README.md
+  511  python -m py_compile weekly_management_summary.py
+  512  python weekly_management_summary.py
+  513  cat weekly_team_summary.csv
+  514  cat weekly_management_summary.txt
+  515  git diff --check
+  516  ls -l
+  517  cd ~/Downloads/Daily_GitHub_Contribution_Tool
+  518  git status
+  519  git add "Automation/Day_110_Weekly_Management_Summary/README.md"
+  520  git add "Automation/Day_110_Weekly_Management_Summary/weekly_ticket_data.csv"
+  521  git add "Automation/Day_110_Weekly_Management_Summary/weekly_management_summary.py"
+  522  git add "Automation/Day_110_Weekly_Management_Summary/weekly_team_summary.csv"
+  523  git add "Automation/Day_110_Weekly_Management_Summary/weekly_management_summary.txt"
+  524  git add "Automation/Day_110_Weekly_Management_Summary/invalid_ticket_data.csv"
+  525  git diff --cached --check
+  526  git status
+  527  git commit -m "Add Day 110 weekly management summary generator"
+  528  git push
+  529  python daily_github.py --complete
+  530  python daily_github.py
+  531  git add daily_log.json
+  532  git commit -m "Mark Day 110 as completed"
+  533  git push
+  534  history 30
+  535  history 50
+
