@@ -30,7 +30,7 @@ Day 70 → PowerBI_Data_Cleaning_Checklist.md
 Day 71 → AWS_Monitoring_Solution_Architecture.md
 Day 72 → AWS_Beginners_Services_Cheat_Sheet.md
 Day 73 → AWS_EC2_Monitoring_Project.md
-Day 74 → AWS_Cloud_Cost_Optimization_Checklist.md
+Day 74 → AWS Cloud Cost Optimization Checklist.md
 Day 75 → AWS IAM Least-Privilege Principles
 Day 76 → AWS ATM Surveillance Monitoring Project README
 Day 77 →  Not done
@@ -57,16 +57,20 @@ Day 97 | 08-Oct-2026 | Python | CSV Summary report| Completed
 Day 98 | 09-Oct-2026 | Python | CSV Missing Values Detector| Completed
 Day 99 | 10-Oct-2026  | Not Done
 Day 100 | 11-Oct-2026 | Python | CSV Comparison Tool| Completed
-Day 101 | 12-Oct-2026 | Python | Purchase-Order Follow-up Tracker| Completed
-Day 102 | 13-Oct-2026 | Python | Vendor Follow-up Email Draft Generator| Completed
+Day 101 | 12-Oct-2026 | Automation | Purchase-Order Follow-up Tracker| Completed
+Day 102 | 13-Oct-2026 | Automation | Vendor Follow-up Email Draft Generator| Completed
 Day 103 | 14-Oct-2026 | Not Done
-Day 104 | 15-Oct-2026 | Python | procurement credit time tracker| Completed
-Day 105 | 16-Oct-2026 | Python | inventory low-stock alert report| Completed
-Day 106 | 17-Oct-2026 | Python | Shipment summary| Completed
-Day 107 | 18-Oct-2026 | Python | SPARE-OUTWARD SUMMARY GROUPED BY ITEM| Completed
+Day 104 | 15-Oct-2026 | Automation | procurement credit time tracker| Completed
+Day 105 | 16-Oct-2026 | Automation | inventory low-stock alert report| Completed
+Day 106 | 17-Oct-2026 | Automation | Shipment summary| Completed
+Day 107 | 18-Oct-2026 | Automation | SPARE-OUTWARD SUMMARY GROUPED BY ITEM| Completed
 Day 108 | 19-Oct-2026 | Not Done
-Day 109 | 20-Oct-2026 | Python | Ticket aging report| Completed
-Day 110 | 21-Oct-2026 | Python | Build a weekly management summary generator from CSV data| Completed
+Day 109 | 20-Oct-2026 | Automation | Ticket aging report| Completed
+Day 110 | 21-Oct-2026 | Automation | Build a weekly management summary generator from CSV data| Completed
+Day 111 | 22-Oct-2026 | AI | Procurement_Analysis_Prompts| Completed
+Day 112 | 23-Oct-2026 | AI | QC Defect Analysis Prompts| Completed
+Day 113 | 24-Oct-2026 | AI | Management Report Prompts| Completed
+
 
 
 

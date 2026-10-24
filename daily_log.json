@@ -376,5 +376,17 @@
     "domain": "AI",
     "task": "Create a markdown file containing 10 prompts for procurement analysis.",
     "completed": true
+  },
+  "2026-10-23": {
+    "task_id": 112,
+    "domain": "AI",
+    "task": "Create 10 prompts for QC defect analysis.",
+    "completed": true
+  },
+  "2026-10-24": {
+    "task_id": 113,
+    "domain": "AI",
+    "task": "Create 10 prompts for management-report generation.",
+    "completed": true
   }
 }
