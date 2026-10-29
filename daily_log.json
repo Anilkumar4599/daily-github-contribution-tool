@@ -406,5 +406,17 @@
     "domain": "AI",
     "task": "Create a prompt for identifying procurement risks without inventing missing information.",
     "completed": true
+  },
+  "2026-10-28": {
+    "task_id": 117,
+    "domain": "AI",
+    "task": "Create a prompt for analyzing vendor delivery performance.",
+    "completed": true
+  },
+  "2026-10-29": {
+    "task_id": 118,
+    "domain": "AI",
+    "task": "Create a prompt for identifying recurring hardware defects.",
+    "completed": true
   }
 }
