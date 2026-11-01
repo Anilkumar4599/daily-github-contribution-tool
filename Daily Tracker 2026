@@ -1,42 +1,46 @@
-Day 41 → QC Defect Classification
-Day 42 → QC Pareto Analysis
-Day 44 → QC Daily Summary
-Day 45 → FPY Calculation
-Day 46 → Recurring Defects
-Day 47 → RCA
-Day 48 → Rework Tracking
-Day 49 → QC KPI Definitions
-Day 50 → Create a Sample Corrective-Action Tracker
-Day 51 → QC Inventory Aging Report
-Day 52 → Build a stock-in versus stock-out summary
-Day 53 → Create an inventory reconciliation checklist
-Day 54 → Build an item-wise consumption report
-Day 55 → Create a minimum-stock and maximum-stock calculator
-Day 56 → Build a monthly inventory KPI report
-Day 57 → Create a slow-moving inventory report
-Day 58 → QC_Damaged_Item_Tracking.md
-Day 59 → Spare Request vs Outward Analysis
-Day 60 → Spare Fulfillment KPI
-Day 61 → Reorder Analysis
-Day 62 → Dashboard Specification
-Day 63 → QC_Dashboard_Data_Dictionary.md
-Day 64 → QC_Shipment_Dashboard_Layout.md
-Day 65 → Inventory_DAX_Measures.md
-Day 66 → Management Dashboard Specification
-Day 67 → PowerBI_Day_67_QC_Dashboard.md
-Day 68 → Vendor performance dashboard specification
-Day 69 → Shipment SLA Dashboard Specification
-Day 70 → PowerBI_Data_Cleaning_Checklist.md
-Day 71 → AWS_Monitoring_Solution_Architecture.md
-Day 72 → AWS_Beginners_Services_Cheat_Sheet.md
-Day 73 → AWS_EC2_Monitoring_Project.md
-Day 74 → AWS Cloud Cost Optimization Checklist.md
-Day 75 → AWS IAM Least-Privilege Principles
-Day 76 → AWS ATM Surveillance Monitoring Project README
-Day 77 →  Not done
-Day 78 → AWS Deployment Checklist
-Day 79 → AWS EC2, S3 and RDS Comparison
-Day 80 → AWS Cloud Architecture Proposal
+# Daily GitHub Tracker — Day 41 to Day 80
+
+| Day | Date | Domain | Task | Status |
+|---|---|---|---|---|
+| Day 41 | 13-Aug-2026 | Documentation | QC Defect Classification | Completed |
+| Day 42 | 14-Aug-2026 | Documentation | QC Pareto Analysis | Completed |
+| Day 44 | 16-Aug-2026 | Documentation | QC Daily Summary | Completed |
+| Day 45 | 17-Aug-2026 | Documentation | FPY Calculation | Completed |
+| Day 46 | 18-Aug-2026 | Documentation | Recurring Defects | Completed |
+| Day 47 | 19-Aug-2026 | Documentation | Root Cause Analysis (RCA) | Completed |
+| Day 48 | 20-Aug-2026 | Documentation | Rework Tracking | Completed |
+| Day 49 | 21-Aug-2026 | Documentation | QC KPI Definitions | Completed |
+| Day 50 | 22-Aug-2026 | Documentation | Sample Corrective-Action Tracker | Completed |
+| Day 51 | 23-Aug-2026 | Documentation | QC Inventory Aging Report | Completed |
+| Day 52 | 24-Aug-2026 | Documentation | Stock-In versus Stock-Out Summary | Completed |
+| Day 53 | 25-Aug-2026 | Documentation | Inventory Reconciliation Checklist | Completed |
+| Day 54 | 26-Aug-2026 | Documentation | Item-Wise Consumption Report | Completed |
+| Day 55 | 27-Aug-2026 | Documentation | Minimum-Stock and Maximum-Stock Calculator | Completed |
+| Day 56 | 28-Aug-2026 | Documentation | Monthly Inventory KPI Report | Completed |
+| Day 57 | 29-Aug-2026 | Documentation | Slow-Moving Inventory Report | Completed |
+| Day 58 | 30-Aug-2026 | Documentation | QC_Damaged_Item_Tracking.md | Completed |
+| Day 59 | 31-Aug-2026 | Documentation | Spare Request vs Outward Analysis | Completed |
+| Day 60 | 01-Sep-2026 | Documentation | Spare Fulfillment KPI | Completed |
+| Day 61 | 02-Sep-2026 | Documentation | Reorder Analysis | Completed |
+| Day 62 | 03-Sep-2026 | Documentation | Dashboard Specification | Completed |
+| Day 63 | 04-Sep-2026 | Documentation | QC_Dashboard_Data_Dictionary.md | Completed |
+| Day 64 | 05-Sep-2026 | Documentation | QC_Shipment_Dashboard_Layout.md | Completed |
+| Day 65 | 06-Sep-2026 | Documentation | Inventory_DAX_Measures.md | Completed |
+| Day 66 | 07-Sep-2026 | Documentation | Management Dashboard Specification | Completed |
+| Day 67 | 08-Sep-2026 | Documentation | PowerBI_Day_67_QC_Dashboard.md | Completed |
+| Day 68 | 09-Sep-2026 | Documentation | Vendor Performance Dashboard Specification | Completed |
+| Day 69 | 10-Sep-2026 | Documentation | Shipment SLA Dashboard Specification | Completed |
+| Day 70 | 11-Sep-2026 | Documentation | PowerBI_Data_Cleaning_Checklist.md | Completed |
+| Day 71 | 12-Sep-2026 | Documentation | AWS Monitoring Solution Architecture | Completed |
+| Day 72 | 13-Sep-2026 | Documentation | AWS Beginners Services Cheat Sheet | Completed |
+| Day 73 | 14-Sep-2026 | Documentation | AWS EC2 Monitoring Project | Completed |
+| Day 74 | 15-Sep-2026 | Documentation | AWS Cloud Cost Optimization Checklist | Completed |
+| Day 75 | 16-Sep-2026 | Documentation | AWS IAM Least-Privilege Principles | Completed |
+| Day 76 | 17-Sep-2026 | Documentation | AWS ATM Surveillance Monitoring Project README | Completed |
+| Day 77 | 18-Sep-2026 | Documentation | Not Done | Not Done |
+| Day 78 | 19-Sep-2026 | Documentation | AWS Deployment Checklist | Completed |
+| Day 79 | 20-Sep-2026 | Documentation | AWS EC2, S3 and RDS Comparison | Completed |
+| Day 80 | 21-Sep-2026 | Documentation | AWS Cloud Architecture Proposal | Completed |
 Day 81 | 22-Sep-2026 | Documentation | Weekly Learning Log | Completed
 Day 82 | 23-Sep-2026 | Documentation | Technical Glossary with Input Validation and README | Completed
 Day 83 | 24-Sep-2026 | Documentation | PO Update to Vendor Email Automation | Completed
@@ -76,6 +80,8 @@ Day 116 | 27-Oct-2026 | AI | Procurement Risk Analysis Prompt | Completed
 Day 117 | 28-Oct-2026 | AI | Vendor Delivery Performance Prompt | Completed
 Day 118 | 29-Oct-2026 | AI | Recurring hardware defect analysis prompt | Completed
 Day 119 | 30-Oct-2026 | AI | Meeting notes action items prompt | Completed
+Day 120 | 31-Oct-2026 | AI | Document 5 practical ways AI can reduce manual Excel work | Completed
+
 
 
 
