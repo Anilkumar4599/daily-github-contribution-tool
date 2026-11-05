@@ -448,5 +448,11 @@
     "domain": "Git",
     "task": "Document the difference between git add, commit, pull and push.",
     "completed": true
+  },
+  "2026-11-05": {
+    "task_id": 125,
+    "domain": "Git",
+    "task": "Create a CONTRIBUTING.md file for one of your repositories.",
+    "completed": true
   }
 }
