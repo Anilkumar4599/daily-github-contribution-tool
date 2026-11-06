@@ -1,0 +1,46 @@
+# Day 126 — Git Commands History
+
+Date: 06-Nov-2026
+Task: Feature Branch Practice with Input Validation
+
+history 40
+  473  python daily_github.py
+  474  cd ~/Downloads/Daily_GitHub_Contribution_Tool
+  475  mkdir -p Git/Day_126_Python_Gitignore
+  476  cd Git/Day_126_Python_Gitignore
+  477  pwd
+  478  notepad .gitignore
+  479  mkdir -p sample_project/__pycache__
+  480  mkdir -p sample_project/.venv
+  481  mkdir -p sample_project/.pytest_cache
+  482  notepad sample_project/main.py
+  483  echo "Sample application log" > sample_project/app.log
+  484  echo "API_KEY=sample-secret" > sample_project/.env
+  485  echo "Temporary data" > sample_project/temp.tmp
+  486  echo "sample cache" > sample_project/__pycache__/sample.pyc
+  487  echo "API_KEY=your_api_key_here" > sample_project/.env.example
+  488  git check-ignore -v sample_project/.env
+  489  git check-ignore -v sample_project/__pycache__/sample.pyc
+  490  git check-ignore -v sample_project/app.log
+  491  git check-ignore -v sample_project/.env.example
+  492  git check-ignore -v sample_project/temp.tmp
+  493  python sample_project/main.py
+  494  notepad README.md
+  495  ls -la
+  496  find sample_project -type f
+  497  git status --short --ignored
+  498  cd ~/Downloads/Daily_GitHub_Contribution_Tool
+  499  git status
+  500  git add Git/Day_126_Python_Gitignore/.gitignore
+  501  git add Git/Day_126_Python_Gitignore/README.md
+  502  git add Git/Day_126_Python_Gitignore/sample_project/main.py
+  503  git add Git/Day_126_Python_Gitignore/sample_project/.env.example
+  504  git diff --cached --check
+  505  git diff --cached --stat
+  506  git status
+  507  git commit -m "Complete Day 126 Python gitignore practice"
+  508  git push origin main
+  509  python daily_github.py --complete
+  510  python daily_github.py
+  511  history 30
+  512  history 40
