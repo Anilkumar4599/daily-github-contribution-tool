@@ -460,5 +460,11 @@
     "domain": "Git",
     "task": "Create a .gitignore suitable for a Python project.",
     "completed": true
+  },
+  "2026-11-07": {
+    "task_id": 127,
+    "domain": "Git",
+    "task": "Document how to recover from an accidental local change using Git.",
+    "completed": true
   }
 }
