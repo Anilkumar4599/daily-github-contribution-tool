@@ -1,0 +1,28 @@
+# Day 128 — Git Commands History
+
+Date: 08-Nov-2026
+Task: Git Workflow Diagram in Markdown
+
+483  python daily_github.py
+  484  cd ~/Downloads/Daily_GitHub_Contribution_Tool
+  485  mkdir -p Git/Day_128_Git_Workflow_Diagram
+  486  cd Git/Day_128_Git_Workflow_Diagram
+  487  pwd
+  488  notepad GIT_WORKFLOW_DIAGRAM.md
+  489  notepad README.md
+  490  ls -l GIT_WORKFLOW_DIAGRAM.md
+  491  grep -c '```mermaid' GIT_WORKFLOW_DIAGRAM.md
+  492  grep -E 'git add|git commit|git push|git pull' GIT_WORKFLOW_DIAGRAM.md
+  493  grep '^## ' GIT_WORKFLOW_DIAGRAM.md
+  494  cd ~/Downloads/Daily_GitHub_Contribution_Tool
+  495  git status
+  496  git add Git/Day_128_Git_Workflow_Diagram/GIT_WORKFLOW_DIAGRAM.md
+  497  git add Git/Day_128_Git_Workflow_Diagram/README.md
+  498  git diff --cached --check
+  499  git diff --cached --stat
+  500  git commit -m "Complete Day 128 Git workflow diagram"
+  501  git push origin main
+  502  python daily_github.py --complete
+  503  python daily_github.py
+  504  git status
+  505  history 25
