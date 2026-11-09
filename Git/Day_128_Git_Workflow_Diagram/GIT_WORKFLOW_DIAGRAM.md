@@ -150,8 +150,7 @@ Command:
 
 
 
-`grep -c '```mermaid' GIT\_WORKFLOW\_DIAGRAM.md`
-
+grep -c '^```mermaid$' GIT_WORKFLOW_DIAGRAM.md
 
 
 Expected result:
