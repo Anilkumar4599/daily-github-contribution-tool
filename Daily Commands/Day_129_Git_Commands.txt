@@ -1,0 +1,71 @@
+# Day 129 — Git Commands History
+
+Date: 09-Nov-2026
+Task: 10 Useful Git Bash Commands
+
+488  python daily_github.py
+  489  cd ~/Downloads/Daily_GitHub_Contribution_Tool
+  490  mkdir -p Git/Day_129_Git_Bash_Commands
+  491  cd Git/Day_129_Git_Bash_Commands
+  492  pwd
+  493  notepad GIT_BASH_COMMANDS.md
+  494  mkdir -p sample_workspace
+  495  printf 'PO follow-up required\nSupplier confirmation pending\nDispatch date: 12-Nov-2026\n' > sample_workspace/notes.txt
+  496  pwd
+  497  ls -la
+  498  cd sample_workspace
+  499  pwd
+  500  mkdir -p reports
+  501  ls -d reports
+  502  touch empty.txt
+  503  ls -l empty.txt
+  504  cat notes.txt
+  505  cp notes.txt notes_backup.txt
+  506  ls notes_backup.txt
+  507  mv notes_backup.txt archive_notes.txt
+  508  ls archive_notes.txt
+  509  grep -n "PO" notes.txt
+  510  find . -type f
+  511  cd ..
+  512  notepad README.md
+  513  grep -c '^## [0-9][0-9]*\.' GIT_BASH_COMMANDS.md
+  514  grep -c '^\*\*Example:\*\*' GIT_BASH_COMMANDS.md
+  515  grep -c '^\*\*Expected output:\*\*' GIT_BASH_COMMANDS.md
+  516  wc -l GIT_BASH_COMMANDS.md
+  517  sed -n '1,100p' GIT_BASH_COMMANDS.md
+  518  grep -nEi 'example|expected output|^#{1,6} ' GIT_BASH_COMMANDS.md
+  519  python - <<'PY'
+from pathlib import Path
+
+file = Path("GIT_BASH_COMMANDS.md")
+content = file.read_text(encoding="utf-8")
+
+content = content.replace(r"\#", "#")
+content = content.replace(r"\*\*", "**")
+content = content.replace(r"\_", "_")
+
+file.write_text(content, encoding="utf-8")
+
+print("Markdown formatting corrected successfully.")
+PY
+
+  520  grep -c '^## [0-9][0-9]*\.' GIT_BASH_COMMANDS.md
+  521  grep -c '^\*\*Example:\*\*' GIT_BASH_COMMANDS.md
+  522  grep -c '^\*\*Expected output:\*\*' GIT_BASH_COMMANDS.md
+  523  sed -n '1,50p' GIT_BASH_COMMANDS.md
+  524  cd ~/Downloads/Daily_GitHub_Contribution_Tool
+  525  pwd
+  526  git status
+  527  git add Git/Day_129_Git_Bash_Commands/GIT_BASH_COMMANDS.md
+  528  git add Git/Day_129_Git_Bash_Commands/README.md
+  529  git add Git/Day_129_Git_Bash_Commands/sample_workspace/notes.txt
+  530  git add Git/Day_129_Git_Bash_Commands/sample_workspace/empty.txt
+  531  git add Git/Day_129_Git_Bash_Commands/sample_workspace/archive_notes.txt
+  532  git diff --cached --check
+  533  git diff --cached --stat
+  534  git status
+  535  git commit -m "Complete Day 129 Git Bash commands"
+  536  git push origin main
+  537  python daily_github.py --complete
+  538  python daily_github.py
+  539  history 60
