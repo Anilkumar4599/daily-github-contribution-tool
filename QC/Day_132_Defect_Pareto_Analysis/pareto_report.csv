@@ -1,0 +1,7 @@
+defect_category,defect_count,cumulative_count,cumulative_percentage
+Camera No Video,18,18,36.00
+Router/Network Issue,12,30,60.00
+Power Failure,8,38,76.00
+Intermittent Restart,5,43,86.00
+DCUPS Backup Issue,4,47,94.00
+Other Defects,3,50,100.00
