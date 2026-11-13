@@ -1,0 +1,5 @@
+device_name,units_inspected,defective_units
+ATM Main Unit,100,8
+Lobby Camera,150,12
+Outdoor Camera,80,10
+DCUPS,60,3

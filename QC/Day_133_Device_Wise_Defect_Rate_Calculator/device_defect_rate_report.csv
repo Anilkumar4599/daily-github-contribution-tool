@@ -1,0 +1,5 @@
+device_name,units_inspected,defective_units,good_units,defect_rate_percent
+Outdoor Camera,80,10,70,12.50
+ATM Main Unit,100,8,92,8.00
+Lobby Camera,150,12,138,8.00
+DCUPS,60,3,57,5.00
