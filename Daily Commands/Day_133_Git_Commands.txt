@@ -1,5 +1,60 @@
-git add "Daily Tracker 2026" "daily_log.json" "Daily Commands/Day_133_Git_Commands.txt"
-git diff --cached --check
-git diff --cached --stat
-git commit -m "Complete Day 133 tracker update"
-git push origin main
+DAY 133 - QC DEFECT PARETO ANALYSIS
+DATE: 13-Nov-2026
+
+488  python daily_github.py
+  489  cd ~/Downloads/Daily_GitHub_Contribution_Tool
+  490  pwd
+  491  mkdir -p "QC/Day_133_Device_Wise_Defect_Rate_Calculator"
+  492  cd "QC/Day_133_Device_Wise_Defect_Rate_Calculator"
+  493  notepad sample_device_data.csv
+  494  notepad device_defect_rate.py
+  495  notepad test_device_defect_rate.py
+  496  notepad README.md
+  497  python -m py_compile device_defect_rate.py test_device_defect_rate.py
+  498  python device_defect_rate.py
+  499  python - <<'PY'
+from pathlib import Path
+
+content = """device_name,units_inspected,defective_units
+ATM Main Unit,100,8
+Lobby Camera,150,12
+Outdoor Camera,80,10
+DCUPS,60,3
+"""
+
+file = Path("sample_device_data.csv")
+file.write_text(content, encoding="utf-8")
+
+print("CSV file recreated successfully.")
+print(f"File size: {file.stat().st_size} bytes")
+PY
+
+  500  python -c "import csv; f=open('sample_device_data.csv', encoding='utf-8-sig', newline=''); print(repr(csv.DictReader(f).fieldnames)); f.close()"
+  501  cat sample_device_data.csv
+  502  python device_defect_rate.py
+  503  python -m unittest -v
+  504  python -m unittest -v
+  505  python -m py_compile device_defect_rate.py test_device_defect_rate.py
+  506  ls -l
+  507  cd ~/Downloads/Daily_GitHub_Contribution_Tool
+  508  git status
+  509  git add "QC/Day_133_Device_Wise_Defect_Rate_Calculator/sample_device_data.csv" "QC/Day_133_Device_Wise_Defect_Rate_Calculator/device_defect_rate.py" "QC/Day_133_Device_Wise_Defect_Rate_Calculator/test_device_defect_rate.py" "QC/Day_133_Device_Wise_Defect_Rate_Calculator/README.md" "QC/Day_133_Device_Wise_Defect_Rate_Calculator/device_defect_rate_report.csv"
+  510  git diff --cached --check
+  511  git diff --cached --stat
+  512  git commit -m "Complete Day 133 device-wise QC defect rate calculator"
+  513  git push origin main
+  514  python daily_github.py --complete
+  515  python daily_github.py
+  516  notepad "Daily Tracker 2026"
+  517  mkdir -p "Daily Commands"
+  518  notepad "Daily Commands/Day_133_Git_Commands.txt"
+  519  git add "Daily Tracker 2026" "daily_log.json" "Daily Commands/Day_133_Git_Commands.txt"
+  520  git diff --cached --check
+  521  git diff --cached --stat
+  522  git commit -m "Complete Day 133 tracker update"
+  523  git push origin main
+  524  git status
+  525  git log -5 --oneline
+  526  git branch -a
+  527  python daily_github.py
+  528  history 50
