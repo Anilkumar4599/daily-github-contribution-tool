@@ -490,5 +490,11 @@
     "domain": "QC",
     "task": "Build a defect Pareto analysis using sample data.",
     "completed": true
+  },
+  "2026-11-13": {
+    "task_id": 133,
+    "domain": "QC",
+    "task": "Create a device-wise defect rate calculator.",
+    "completed": true
   }
 }
