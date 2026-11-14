@@ -496,5 +496,11 @@
     "domain": "QC",
     "task": "Create a device-wise defect rate calculator.",
     "completed": true
+  },
+  "2026-11-14": {
+    "task_id": 134,
+    "domain": "QC",
+    "task": "Create a QC daily summary template in markdown.",
+    "completed": true
   }
 }
