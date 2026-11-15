@@ -1,0 +1,57 @@
+DAY 135 - QC DEFECT PARETO ANALYSIS
+DATE: 15-Nov-2026 
+
+history 40
+  471  history 30
+  472  git add "Daily Tracker 2026" "daily_log.json" "Daily Commands/Day_134_Git_Commands.txt"
+  473  git diff --cached --check
+  474  git diff --cached --stat
+  475  git commit -m "Complete Day 134 tracker update"
+  476  git push origin main
+  477  git status
+  478  git log -5 --oneline
+  479  git branch -a
+  480  python daily_github.py
+  481  exit
+  482  python daily_github.py
+  483  cd ~/Downloads/Daily_GitHub_Contribution_Tool
+  484  pwd
+  485  mkdir -p "QC/Day_135_First_Pass_Yield_Calculation"
+  486  cd "QC/Day_135_First_Pass_Yield_Calculation"
+  487  notepad sample_fpy_data.csv
+  488  notepad fpy_calculator.py
+  489  notepad test_fpy_calculator.py
+  490  notepad README.md
+  491  python fpy_calculator.py
+  492  python -m unittest -v test_fpy_calculator.py
+  493  cat fpy_report.csv
+  494  cd ~/Downloads/Daily_GitHub_Contribution_Tool
+  495  pwd
+  496  git status
+  497  git add "QC/Day_135_First_Pass_Yield_Calculation/sample_fpy_data.csv"
+  498  git add "QC/Day_135_First_Pass_Yield_Calculation/fpy_calculator.py"
+  499  git add "QC/Day_135_First_Pass_Yield_Calculation/test_fpy_calculator.py"
+  500  git add "QC/Day_135_First_Pass_Yield_Calculation/README.md"
+  501  git add "QC/Day_135_First_Pass_Yield_Calculation/fpy_report.csv"
+  502  git diff --cached --check
+  503  git status
+  504  git commit -m "Complete Day 135 first-pass yield calculation"
+  505  git push origin main
+  506  python daily_github.py --complete
+  507  python daily_github.py
+  508  notepad "Daily Tracker 2026"
+  509  history 30
+  510  history 40
+
+
+Thanks & Regards
+M ANIL KUMAR(Anil)
+Apar Innosys LLP
+
+North Gate, Developed Industrial Estate, 11/1, First Floor, 
+Thiru Vi Ka Industrial Estate, Ekkatuthangal, Chennai, Tamil Nadu 600032  
+Email: anil.kumar@aparinnosys.com| www.aparinnosys.com 
+Twitter | Facebook | LinkedIn | YouTube  
+Print only when necessary
+ 
+
