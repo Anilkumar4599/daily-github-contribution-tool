@@ -508,5 +508,11 @@
     "domain": "QC",
     "task": "Build a first-pass-yield calculation example.",
     "completed": true
+  },
+  "2026-11-16": {
+    "task_id": 136,
+    "domain": "QC",
+    "task": "Create a recurring-defect tracker.",
+    "completed": true
   }
 }
