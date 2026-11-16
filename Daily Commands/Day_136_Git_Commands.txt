@@ -1,4 +1,96 @@
-DAY 136 - QC DEFECT PARETO ANALYSIS
-DATE: 16-Nov-2026 
+# Day 136 – Actual Git Bash Commands
 
-history 40
+**Date:** 16 November 2026  
+**Task:** Create a Recurring-Defect Tracker
+
+## 1. Navigate to project folder
+
+```bash
+cd qc
+ls -l
+cd Day_136_Recurring_Defect_Tracker/
+ls -l
+```
+
+## 2. Create and verify README
+
+```bash
+notepad README.md
+ls -l README.md
+ls -l
+```
+
+## 3. Return to repository root
+
+```bash
+cd ~/Downloads/Daily_GitHub_Contribution_Tool
+pwd
+git status --short
+```
+
+## 4. Stage project files
+
+```bash
+git add "qc/Day_136_Recurring_Defect_Tracker/README.md"
+git add "qc/Day_136_Recurring_Defect_Tracker/sample_defects.csv"
+git add "qc/Day_136_Recurring_Defect_Tracker/recurring_defect_tracker.py"
+git add "qc/Day_136_Recurring_Defect_Tracker/test_recurring_defect_tracker.py"
+git add "qc/Day_136_Recurring_Defect_Tracker/recurring_defect_report.csv"
+```
+
+## 5. Commit and push project
+
+```bash
+git diff --cached --check
+git status
+git commit -m "Complete Day 136 recurring defect tracker"
+git push origin main
+```
+
+## 6. Update daily task status
+
+```bash
+python daily_github.py --complete
+python daily_github.py
+```
+
+## 7. Update master tracker and command history
+
+```bash
+notepad "Daily Tracker 2026"
+mkdir -p "Daily Commands"
+notepad "Daily Commands/Day_136_Git_Commands.txt"
+```
+
+## 8. Commit and push tracker updates
+
+```bash
+git add "Daily Tracker 2026"
+git add "daily_log.json"
+git add "Daily Commands/Day_136_Git_Commands.txt"
+
+git diff --cached --check
+git status
+git commit -m "Complete Day 136 tracker update"
+git push origin main
+```
+
+## 9. Final verification
+
+```bash
+git status
+git log -5 --oneline
+git branch -a
+python daily_github.py
+```
+
+## Final Result
+
+- Recurring-defect tracker created.
+- Sample data: 8 defect incidents.
+- Recurring defect groups: 3.
+- Automated tests: 7 passed.
+- Project committed and pushed.
+- Master tracker updated.
+- Daily task status: COMPLETED.
+
