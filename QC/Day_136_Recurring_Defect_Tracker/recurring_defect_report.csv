@@ -1,0 +1,6 @@
+device_name,defect_category,severity,occurrence_count,first_reported,last_reported,status
+ATM Main Unit,Power Failure,Critical,2,2026-11-10,2026-11-11,Recurring
+Lobby Camera,No Video,Critical,2,2026-11-10,2026-11-13,Recurring
+Outdoor Camera,Intermittent Restart,Major,2,2026-11-12,2026-11-15,Recurring
+DCUPS,Backup Failure,Critical,1,2026-11-15,2026-11-15,Not Recurring
+Router,Network Connectivity,Major,1,2026-11-14,2026-11-14,Not Recurring

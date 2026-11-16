@@ -1,0 +1,9 @@
+date,device_name,defect_category,severity
+2026-11-10,ATM Main Unit,Power Failure,Critical
+2026-11-10,Lobby Camera,No Video,Critical
+2026-11-11,ATM Main Unit,Power Failure,Critical
+2026-11-12,Outdoor Camera,Intermittent Restart,Major
+2026-11-13,Lobby Camera,No Video,Critical
+2026-11-14,Router,Network Connectivity,Major
+2026-11-15,Outdoor Camera,Intermittent Restart,Major
+2026-11-15,DCUPS,Backup Failure,Critical
