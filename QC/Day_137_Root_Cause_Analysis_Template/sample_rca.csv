@@ -1,0 +1,2 @@
+rca_id,reported_date,device_name,defect_description,severity,containment_action,root_cause,corrective_action,preventive_action,owner,target_date,status
+RCA-001,2026-11-17,ATM Main Unit,Power Failure,Critical,Defective unit isolated,Power supply component failure,Replace defective power component,Add power component inspection,QC Team,2026-11-20,Open
