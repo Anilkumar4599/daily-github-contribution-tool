@@ -1,0 +1,103 @@
+
+DAY 137 - DAILY GITHUB COMMANDS
+Date: 17-Nov-2026
+Domain: QC
+Task: Root Cause Analysis (RCA) Template
+
+PROJECT FOLDER:
+QC/Day_137_Root_Cause_Analysis_Template/
+
+1. PROJECT NAVIGATION
+
+cd ~/Downloads/Daily_GitHub_Contribution_Tool/QC/Day_137_Root_Cause_Analysis_Template
+
+2. CHECK PROJECT FILES
+
+ls -l
+
+3. REVIEW PYTHON VALIDATOR CODE
+
+sed -n '1,240p' rca_validator.py
+
+4. CREATE TEST FILE
+
+cat > test_rca_validator.py <<'EOF'
+[Python test code created for Day 137]
+EOF
+
+5. RUN AUTOMATED TESTS
+
+python -m unittest -v test_rca_validator.py
+
+Expected result:
+Ran 7 tests
+OK
+
+6. CREATE README
+
+notepad README.md
+
+7. RUN RCA VALIDATION
+
+python rca_validator.py
+
+Expected result:
+RCA Record: RCA-001
+Validation Status: PASSED
+Device: ATM Main Unit
+Severity: Critical
+Status: Open
+
+8. VERIFY PROJECT FILES
+
+ls -l
+
+EXPECTED PROJECT FILES:
+- rca_template.md
+- sample_rca.csv
+- rca_validator.py
+- test_rca_validator.py
+- README.md
+
+9. GIT PROJECT COMMIT
+(To execute after returning to the repository root)
+
+cd ~/Downloads/Daily_GitHub_Contribution_Tool
+
+git add "QC/Day_137_Root_Cause_Analysis_Template/rca_template.md"
+git add "QC/Day_137_Root_Cause_Analysis_Template/sample_rca.csv"
+git add "QC/Day_137_Root_Cause_Analysis_Template/rca_validator.py"
+git add "QC/Day_137_Root_Cause_Analysis_Template/test_rca_validator.py"
+git add "QC/Day_137_Root_Cause_Analysis_Template/README.md"
+
+git diff --cached --check
+git status
+
+git commit -m "Complete Day 137 root cause analysis template"
+git push origin main
+
+10. DAILY TRACKER UPDATE
+(To execute after successful project push)
+
+python daily_github.py --complete
+python daily_github.py
+
+11. FINAL GIT VERIFICATION
+
+git status
+git log -5 --oneline
+git branch -a
+python daily_github.py
+
+DAY 137 LEARNING OUTCOME:
+- Created a reusable RCA documentation template.
+- Created sample RCA data.
+- Developed Python input validation.
+- Created seven automated unit tests.
+- All seven tests passed.
+- Sample RCA record passed validation.
+
+STATUS:
+Project validation: PASSED
+Git project commit and push: PENDING
+Daily tracker completion: PENDING
