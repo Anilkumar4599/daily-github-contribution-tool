@@ -1,0 +1,4 @@
+rework_id,reported_date,device_name,defect_description,severity,rework_action,assigned_to,target_date,status,reinspection_result,completion_date
+RW-001,2026-11-18,ATM Main Unit,Power Failure,Critical,Replace defective power supply,QC Team,2026-11-20,In Progress,Pending,
+RW-002,2026-11-17,Lobby Camera,No Video Output,Major,Replace camera cable,Service Team,2026-11-19,Pending,Pending,
+RW-003,2026-11-16,Router,Network Connectivity Failure,Major,Replace network cable and retest,Network Team,2026-11-18,Completed,Pass,2026-11-18
