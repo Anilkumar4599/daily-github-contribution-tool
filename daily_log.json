@@ -520,5 +520,11 @@
     "domain": "QC",
     "task": "Create a root-cause analysis template.",
     "completed": true
+  },
+  "2026-11-18": {
+    "task_id": 138,
+    "domain": "QC",
+    "task": "Build a rework tracking table.",
+    "completed": true
   }
 }
