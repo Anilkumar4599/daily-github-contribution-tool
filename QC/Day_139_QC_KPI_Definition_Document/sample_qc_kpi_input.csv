@@ -1,0 +1,2 @@
+reporting_date,received_qty,inspected_qty,first_pass_accepted_qty,first_pass_failed_qty,unique_defective_units,units_requiring_rework,units_rework_completed,total_defect_incidents,repeat_defect_incidents
+2026-11-19,120,100,85,15,12,10,8,20,6
