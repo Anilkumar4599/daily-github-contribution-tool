@@ -1,0 +1,4 @@
+action_id,reported_date,defect_id,device_name,root_cause,corrective_action,owner,target_date,status,closure_date
+CA-001,2026-11-18,DEF-001,ATM Main Unit,Power supply component failure,Replace faulty power supply,QC Team,2026-11-22,In Progress,
+CA-002,2026-11-19,DEF-002,Lobby Camera,Loose camera cable,Reconnect and secure cable,Service Team,2026-11-21,Open,
+CA-003,2026-11-16,DEF-003,Router,Faulty network connector,Replace connector and retest,Network Team,2026-11-19,Closed,2026-11-19
