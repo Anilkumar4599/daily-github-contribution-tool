@@ -1,0 +1,145 @@
+# DAY 139 – DAILY GITHUB COMMANDS
+
+**Date:** 19-Nov-2026  
+**Domain:** QC  
+**Task:** Create a QC KPI Definition Document  
+**Repository:** Daily_GitHub_Contribution_Tool
+
+## 1. Create Project Folder
+
+```bash
+cd ~/Downloads/Daily_GitHub_Contribution_Tool
+
+mkdir -p QC/Day_139_QC_KPI_Definition_Document
+
+cd QC/Day_139_QC_KPI_Definition_Document
+```
+
+## 2. Create Sample KPI Input CSV
+
+```bash
+cat > sample_qc_kpi_input.csv <<'EOF'
+reporting_date,received_qty,inspected_qty,first_pass_accepted_qty,first_pass_failed_qty,unique_defective_units,units_requiring_rework,units_rework_completed,total_defect_incidents,repeat_defect_incidents
+2026-11-19,120,100,85,15,12,10,8,20,6
+EOF
+```
+
+## 3. Create KPI Definition Document and README
+
+```bash
+notepad QC_KPI_Definitions.md
+notepad README.md
+```
+
+## 4. Verify Project Files
+
+```bash
+ls -l
+```
+
+## 5. Verify CSV Headers and Records
+
+```bash
+python -c "import csv; f=open('sample_qc_kpi_input.csv', newline='', encoding='utf-8-sig'); r=csv.DictReader(f); print('Headers:', r.fieldnames); print('Sample Records:', len(list(r))); f.close()"
+```
+
+**Verification Result:**
+- CSV headers detected: 10
+- Sample records detected: 1
+
+## 6. Stage Day 139 Project Files
+
+Return to the repository root:
+
+```bash
+cd ~/Downloads/Daily_GitHub_Contribution_Tool
+```
+
+Stage the three project files:
+
+```bash
+git add "QC/Day_139_QC_KPI_Definition_Document/QC_KPI_Definitions.md"
+git add "QC/Day_139_QC_KPI_Definition_Document/README.md"
+git add "QC/Day_139_QC_KPI_Definition_Document/sample_qc_kpi_input.csv"
+```
+
+Verify:
+
+```bash
+git diff --cached --check
+git status
+```
+
+## 7. Commit and Push Day 139 Project
+
+```bash
+git commit -m "Complete Day 139 QC KPI definition document"
+
+git push origin main
+```
+
+**Project commit:** `cadb9f1`
+
+## 8. Clean Unintended Root-Level Files
+
+Remove the unintended root-level copies:
+
+```bash
+rm QC_KPI_Definitions.md
+rm README.md
+rm sample_qc_kpi_input.csv
+```
+
+Stage the two tracked file deletions:
+
+```bash
+git add -u -- QC_KPI_Definitions.md README.md
+```
+
+Verify:
+
+```bash
+git status
+```
+
+Commit and push the cleanup:
+
+```bash
+git commit -m "Remove unintended root-level QC KPI files"
+
+git push origin main
+```
+
+**Cleanup commit:** `dbd8204`
+
+## 9. Final Git Verification
+
+```bash
+git status
+git log -5 --oneline
+git branch -a
+python daily_github.py
+```
+
+## 10. Day 139 Learning Outcomes
+
+- Defined seven important QC KPIs.
+- Documented KPI calculation formulas.
+- Prepared sample QC KPI input data.
+- Documented expected KPI output.
+- Distinguished defective units from defect incidents.
+- Documented inspection, FPY and rework performance measures.
+
+## 11. Project Status
+
+- KPI definition document: Created
+- Sample CSV: Created and verified
+- README: Created
+- Project commit: `cadb9f1`
+- Root-level cleanup commit: `dbd8204`
+- GitHub push: Verified through Git history
+- Working tree: Clean at last verification
+
+**Daily tracker completion and tracker update commit: PENDING**
+
+**Note:** Do not mark Day 139 fully completed until `python daily_github.py` reports COMPLETED and the tracker update has been pushed.
