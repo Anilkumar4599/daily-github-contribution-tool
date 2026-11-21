@@ -1,0 +1,6 @@
+inventory_id,item_name,category,received_date,qty_on_hand,unit_cost
+INV-001,2TB WD Surveillance HDD,Storage,2026-08-01,10,10500
+INV-002,4G Router,Network,2026-09-20,5,4500
+INV-003,Lobby Camera,Camera,2026-10-15,8,3200
+INV-004,DCUPS,Power,2026-11-10,3,6500
+INV-005,ATM Main Unit,Main Unit,2026-07-01,2,18000
