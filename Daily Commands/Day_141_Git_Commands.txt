@@ -1,0 +1,121 @@
+# Day 141 – Git Commands & Execution History
+
+**Date:** 21-Nov-2026  
+**Domain:** Inventory  
+**Task:** Create an inventory aging report.  
+**Check:** Use a small sample dataset and document your assumptions.
+
+## 1. Project Objective
+
+Created a sample Inventory Aging Report using Python and CSV.
+
+The report calculates inventory age, classifies stock into aging categories, and summarizes inventory quantity and value.
+
+## 2. Project Folder
+
+```text
+Inventory/
+└── Day_141_Inventory_Aging_Report/
+    ├── README.md
+    ├── inventory_aging_sample.csv
+    └── inventory_aging_report.py
+```
+
+## 3. Folder Creation Commands
+
+```bash
+cd ~/Downloads/Daily_GitHub_Contribution_Tool
+
+mkdir -p "Inventory/Day_141_Inventory_Aging_Report"
+
+cd "Inventory/Day_141_Inventory_Aging_Report"
+```
+
+## 4. File Creation Commands
+
+Created the following files using Notepad:
+
+```bash
+notepad inventory_aging_sample.csv
+
+notepad inventory_aging_report.py
+
+notepad README.md
+```
+
+## 5. Sample Inventory Dataset
+
+Five sample inventory records were created:
+
+| Inventory ID | Item | Received Date | Quantity | Unit Cost |
+|---|---|---|---:|---:|
+| INV-001 | 2TB WD Surveillance HDD | 01-Aug-2026 | 10 | ₹10,500 |
+| INV-002 | 4G Router | 20-Sep-2026 | 5 | ₹4,500 |
+| INV-003 | Lobby Camera | 15-Oct-2026 | 8 | ₹3,200 |
+| INV-004 | DCUPS | 10-Nov-2026 | 3 | ₹6,500 |
+| INV-005 | ATM Main Unit | 01-Jul-2026 | 2 | ₹18,000 |
+
+## 6. Inventory Aging Classification
+
+| Age in Days | Category |
+|---|---|
+| 0–30 days | Fresh |
+| 31–60 days | Normal |
+| 61–90 days | Slow-moving |
+| Above 90 days | Old stock |
+
+**Report Date:** 21-Nov-2026
+
+## 7. Program Execution
+
+```bash
+python inventory_aging_report.py
+```
+
+**Execution Result:** Successfully generated the Inventory Aging Report.
+
+All five inventory records were processed successfully.
+
+## 8. Verified Report Summary
+
+| Aging Category | Records | Quantity | Stock Value |
+|---|---:|---:|---:|
+| Fresh | 1 | 3 | ₹19,500 |
+| Normal | 1 | 8 | ₹25,600 |
+| Slow-moving | 1 | 5 | ₹22,500 |
+| Old stock | 2 | 12 | ₹1,41,000 |
+| **Total** | **5** | **28** | **₹2,08,600** |
+
+### Key Management Observation
+
+- Total inventory value: ₹2,08,600.
+- Old stock value: ₹1,41,000.
+- Old stock represents approximately 67.6% of total inventory value.
+- Old stock requires review for consumption planning, redistribution, and future procurement control.
+
+## 9. Assumptions
+
+1. Report date is fixed at 21-Nov-2026.
+2. Inventory age is calculated using calendar days.
+3. Each CSV row represents one inventory stock lot.
+4. Received date is used as the starting point for aging.
+5. Stock value = Quantity on Hand × Unit Cost.
+6. Sample records are illustrative and not actual company inventory.
+7. Stock movements, returns, reservations, and subsequent issues are not considered.
+
+## 10. Git Commands – Stage and Verify
+
+Returned to the repository root:
+
+```bash
+cd ~/Downloads/Daily_GitHub_Contribution_Tool
+```
+
+Staged the three project files individually:
+
+```bash
+git add "Inventory/Day_141_Inventory_Aging_Report/inventory_aging_sample.csv"
+
+git add "Inventory/Day_141_Inventory_Aging_Report/inventory_aging_report.py"
+
+git add "Inventory
