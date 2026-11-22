@@ -1,0 +1,163 @@
+# Day 142 – Git Commands & Execution History
+
+**Date:** 22-Nov-2026  
+**Domain:** Inventory  
+**Task:** Build a stock-in versus stock-out summary.  
+**Check:** Add input validation and a short README.
+
+## 1. Project Objective
+
+Created a sample Stock-In vs Stock-Out Summary using Python and CSV.
+
+The report calculates opening stock, stock received, stock issued, closing stock, and net stock movement.
+
+## 2. Project Folder
+
+```text
+Inventory/
+└── Day_142_Stock_In_Stock_Out_Summary/
+    ├── opening_stock.csv
+    ├── stock_transactions.csv
+    ├── stock_movement_summary.py
+    └── README.md
+```
+
+## 3. Folder and File Creation Commands
+
+```bash
+cd ~/Downloads/Daily_GitHub_Contribution_Tool
+
+mkdir -p "Inventory/Day_142_Stock_In_Stock_Out_Summary"
+
+cd "Inventory/Day_142_Stock_In_Stock_Out_Summary"
+
+notepad opening_stock.csv
+
+notepad stock_transactions.csv
+
+notepad stock_movement_summary.py
+
+notepad README.md
+```
+
+## 4. Program Execution
+
+```bash
+python stock_movement_summary.py
+```
+
+**Expected verified results:**
+
+- Opening stock: 60 units
+- Total stock-in: 29 units
+- Total stock-out: 27 units
+- Closing stock: 62 units
+- Net movement: 2 units
+- Transactions: 10
+
+## 5. Calculation Formula
+
+Closing Stock = Opening Stock + Stock-In − Stock-Out
+
+## 6. Input Validation
+
+The program validates:
+
+1. Required CSV columns.
+2. Duplicate item codes.
+3. Duplicate transaction IDs.
+4. Unknown item codes.
+5. Valid transaction types.
+6. Valid transaction dates.
+7. Positive quantities.
+8. Sufficient stock before stock-out transactions.
+
+## 7. Git Commands – Stage and Verify
+
+```bash
+cd ~/Downloads/Daily_GitHub_Contribution_Tool
+
+git add "Inventory/Day_142_Stock_In_Stock_Out_Summary/opening_stock.csv"
+
+git add "Inventory/Day_142_Stock_In_Stock_Out_Summary/stock_transactions.csv"
+
+git add "Inventory/Day_142_Stock_In_Stock_Out_Summary/stock_movement_summary.py"
+
+git add "Inventory/Day_142_Stock_In_Stock_Out_Summary/README.md"
+
+git diff --cached --check
+
+git status
+```
+
+## 8. Project Commit and Push
+
+```bash
+git commit -m "Complete Day 142 stock movement summary"
+
+git push origin main
+```
+
+Project commit ID: Record the actual commit ID after successful commit.
+
+Push status: Record the actual result after pushing.
+
+## 9. Daily Tracker Completion
+
+```bash
+python daily_github.py --complete
+
+python daily_github.py
+```
+
+Create this command-history file:
+
+```bash
+notepad "Daily Commands/Day_142_Git_Commands.txt"
+```
+
+Stage the tracker files:
+
+```bash
+git add "Daily Tracker 2026"
+
+git add "daily_log.json"
+
+git add "Daily Commands/Day_142_Git_Commands.txt"
+
+git diff --cached --check
+
+git status
+```
+
+After confirming the staged files:
+
+```bash
+git commit -m "Complete Day 142 tracker update"
+
+git push origin main
+```
+
+## 10. Final Verification
+
+```bash
+git status
+
+git log -5 --oneline
+
+python daily_github.py
+```
+
+Confirm:
+
+- Working tree is clean.
+- Local main branch is synchronized with origin/main.
+- Daily task #142 shows COMPLETED.
+
+---
+
+**Project:** Day 142 – Stock-In vs Stock-Out Summary  
+**Domain:** Inventory  
+**Project Push:** Pending execution  
+**Tracker Update:** Pending execution  
+**Final Status:** Update after verification.
