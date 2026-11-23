@@ -1,0 +1,5 @@
+test_case_id,item_name,opening_qty,stock_in,stock_out,recorded_system_closing,physical_qty,expected_closing,expected_result
+TC-001,2TB WD Surveillance HDD,20,10,6,24,24,24,Matched
+TC-002,4G Router,12,5,4,13,12,13,Physical Shortage
+TC-003,Lobby Camera,15,8,10,13,14,13,Physical Excess
+TC-004,DCUPS,8,4,2,9,9,10,System Balance Mismatch
