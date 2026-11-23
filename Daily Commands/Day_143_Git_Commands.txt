@@ -86,7 +86,7 @@ python daily_github.py --complete
 
 python daily_github.py
 
-notepad "Daily Commands/Day_143_Git_Commands.txt"
+notepad "Daily Commands/Day_144_Git_Commands.txt"
 ```
 
 Stage the tracker files:
