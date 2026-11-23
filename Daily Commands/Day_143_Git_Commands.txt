@@ -1,0 +1,132 @@
+
+# Day 143 - Git Commands & Execution History
+
+**Date:** 23-Nov-2026
+**Domain:** Inventory
+**Task:** Create an inventory reconciliation checklist.
+**Check:** Include at least three test cases.
+
+## 1. Project Objective
+
+Created an inventory reconciliation checklist with four sample test cases.
+
+## 2. Project Files
+
+- inventory_reconciliation_checklist.md
+- sample_reconciliation_test_cases.csv
+- README.md
+
+## 3. Folder Creation
+
+```bash
+cd ~/Downloads/Daily_GitHub_Contribution_Tool
+
+mkdir -p "Inventory/Day_143_Inventory_Reconciliation_Checklist"
+
+cd "Inventory/Day_143_Inventory_Reconciliation_Checklist"
+```
+
+## 4. File Creation
+
+```bash
+notepad inventory_reconciliation_checklist.md
+
+notepad sample_reconciliation_test_cases.csv
+
+notepad README.md
+```
+
+## 5. File Verification
+
+```bash
+ls -l
+
+cat sample_reconciliation_test_cases.csv
+
+cat inventory_reconciliation_checklist.md
+```
+
+## 6. Test Cases
+
+- TC-001: Matched
+- TC-002: Physical Shortage
+- TC-003: Physical Excess
+- TC-004: System Balance Mismatch
+
+## 7. Git Stage and Verification
+
+```bash
+cd ~/Downloads/Daily_GitHub_Contribution_Tool
+
+git add "Inventory/Day_143_Inventory_Reconciliation_Checklist/inventory_reconciliation_checklist.md"
+
+git add "Inventory/Day_143_Inventory_Reconciliation_Checklist/sample_reconciliation_test_cases.csv"
+
+git add "Inventory/Day_143_Inventory_Reconciliation_Checklist/README.md"
+
+git diff --cached --check
+
+git status
+```
+
+## 8. Project Commit and Push
+
+```bash
+git commit -m "Complete Day 143 inventory reconciliation checklist"
+
+git push origin main
+```
+
+Record the actual project commit ID after successful commit.
+
+## 9. Daily Tracker Update
+
+```bash
+python daily_github.py --complete
+
+python daily_github.py
+
+notepad "Daily Commands/Day_143_Git_Commands.txt"
+```
+
+Stage the tracker files:
+
+```bash
+git add "Daily Tracker 2026"
+
+git add "daily_log.json"
+
+git add "Daily Commands/Day_143_Git_Commands.txt"
+
+git diff --cached --check
+
+git status
+```
+
+After confirming the intended files are staged:
+
+```bash
+git commit -m "Complete Day 143 tracker update"
+
+git push origin main
+```
+
+## 10. Final Verification
+
+```bash
+git status
+
+git log -5 --oneline
+
+python daily_github.py
+```
+
+Confirm clean working tree, synchronized GitHub branch, and Task #143 COMPLETED.
+
+---
+
+Project commit ID: Update after commit.
+Tracker commit ID: Update after commit.
+Project push: Update after push.
+Tracker push: Update after push.
+Final status: Update after verification.
