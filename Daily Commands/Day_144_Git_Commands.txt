@@ -1,0 +1,271 @@
+# Day 144 – Git Commands & Execution History
+
+**Date:** 24-Nov-2026  
+**Domain:** Inventory  
+**Task:** Build an item-wise consumption report.  
+**Check:** Add an example input and expected output.
+
+## 1. Project Objective
+
+Created an Item-wise Consumption Report using Python and CSV.
+
+The report summarizes material consumption by item, calculates the number of issue transactions, and determines average quantity issued per transaction.
+
+## 2. Project Folder Structure
+
+```text
+Inventory/
+└── Day_144_Item_Wise_Consumption_Report/
+    ├── stock_issue_transactions.csv
+    ├── item_wise_consumption_report.py
+    └── README.md
+```
+
+## 3. Folder Creation Commands
+
+```bash
+cd ~/Downloads/Daily_GitHub_Contribution_Tool
+
+mkdir -p "Inventory/Day_144_Item_Wise_Consumption_Report"
+
+cd "Inventory/Day_144_Item_Wise_Consumption_Report"
+```
+
+## 4. Project File Creation Commands
+
+```bash
+notepad stock_issue_transactions.csv
+
+notepad item_wise_consumption_report.py
+
+notepad README.md
+```
+
+## 5. Sample Input Data
+
+The sample dataset contains 10 stock issue transactions for five inventory items.
+
+| Issue ID | Item | Issued Quantity |
+|---|---|---:|
+| ISS-001 | 2TB WD Surveillance HDD | 2 |
+| ISS-002 | 4G Router | 1 |
+| ISS-003 | 2TB WD Surveillance HDD | 3 |
+| ISS-004 | Lobby Camera | 4 |
+| ISS-005 | 4G Router | 2 |
+| ISS-006 | DCUPS | 1 |
+| ISS-007 | Lobby Camera | 2 |
+| ISS-008 | 2TB WD Surveillance HDD | 1 |
+| ISS-009 | ATM Main Unit | 1 |
+| ISS-010 | 4G Router | 3 |
+
+**Report Period:** 01-Nov-2026 to 24-Nov-2026.
+
+## 6. Calculation Logic
+
+**Total Consumption**
+
+Total Consumption = Sum of all issued quantities.
+
+**Average Consumption per Issue**
+
+Average = Total Issued Quantity / Number of Issue Transactions.
+
+## 7. Expected Report Output
+
+| Item | Issue Records | Total Consumption | Average per Issue |
+|---|---:|---:|---:|
+| 2TB WD Surveillance HDD | 3 | 6 | 2.00 |
+| 4G Router | 3 | 6 | 2.00 |
+| Lobby Camera | 2 | 6 | 3.00 |
+| DCUPS | 1 | 1 | 1.00 |
+| ATM Main Unit | 1 | 1 | 1.00 |
+| **Total** | **10** | **20** | **2.00** |
+
+Expected summary:
+- Total item types: 5
+- Total issue transactions: 10
+- Total consumption quantity: 20
+- Average quantity per transaction: 2.00
+
+## 8. Program Execution
+
+```bash
+python item_wise_consumption_report.py
+```
+
+The program should generate the item-wise consumption summary and display a successful completion message.
+
+## 9. Input Validation
+
+The Python program validates:
+
+1. Required CSV columns.
+2. Missing mandatory fields.
+3. Duplicate issue IDs.
+4. Valid transaction dates.
+5. Dates within the report period.
+6. Positive issue quantities.
+7. Consistent item names for each item code.
+
+## 10. File Verification Commands
+
+```bash
+ls -l
+
+cat stock_issue_transactions.csv
+
+python item_wise_consumption_report.py
+```
+
+## 11. Git Commands – Stage and Verify
+
+Return to the repository root:
+
+```bash
+cd ~/Downloads/Daily_GitHub_Contribution_Tool
+```
+
+Stage the project files individually:
+
+```bash
+git add "Inventory/Day_144_Item_Wise_Consumption_Report/stock_issue_transactions.csv"
+
+git add "Inventory/Day_144_Item_Wise_Consumption_Report/item_wise_consumption_report.py"
+
+git add "Inventory/Day_144_Item_Wise_Consumption_Report/README.md"
+```
+
+Check staged changes:
+
+```bash
+git diff --cached --check
+
+git status
+```
+
+Confirm that only the three intended Day 144 project files are staged.
+
+## 12. Project Commit and GitHub Push
+
+Commit the project:
+
+```bash
+git commit -m "Complete Day 144 item-wise consumption report"
+```
+
+Push to GitHub:
+
+```bash
+git push origin main
+```
+
+**Project Commit ID:** Record the actual commit ID after successful commit.
+
+**Project Push Status:** Update after successful push.
+
+## 13. Mark Day 144 as Completed
+
+After the project commit and push succeed:
+
+```bash
+python daily_github.py --complete
+
+python daily_github.py
+```
+
+Confirm that Task #144 displays COMPLETED.
+
+## 14. Create Day 144 Command History File
+
+```bash
+notepad "Daily Commands/Day_144_Git_Commands.txt"
+```
+
+Save this document in the Daily Commands folder.
+
+## 15. Daily Tracker Update – Stage and Verify
+
+Stage the tracker files individually:
+
+```bash
+git add "Daily Tracker 2026"
+
+git add "daily_log.json"
+
+git add "Daily Commands/Day_144_Git_Commands.txt"
+```
+
+Verify staged changes:
+
+```bash
+git diff --cached --check
+
+git status
+```
+
+Confirm that only the intended tracker files are staged. Do not stage unrelated files.
+
+## 16. Tracker Commit and GitHub Push
+
+After verifying the staged files:
+
+```bash
+git commit -m "Complete Day 144 tracker update"
+
+git push origin main
+```
+
+**Tracker Commit ID:** Record the actual commit ID after successful commit.
+
+**Tracker Push Status:** Update after successful push.
+
+## 17. Final Git Verification
+
+Run:
+
+```bash
+git status
+
+git log -5 --oneline
+
+python daily_github.py
+```
+
+### Final Verification Requirements
+
+- Working tree must be clean.
+- Local main branch must be synchronized with origin/main.
+- Project files must be pushed successfully.
+- Daily tracker files must be pushed successfully.
+- Daily task #144 must display COMPLETED.
+
+## 18. Final Project Summary
+
+**Project:** Day 144 – Item-wise Consumption Report
+
+**Domain:** Inventory Management
+
+**Project Files:**
+- stock_issue_transactions.csv
+- item_wise_consumption_report.py
+- README.md
+
+**Sample Transactions:** 10
+
+**Inventory Items:** 5
+
+**Total Sample Consumption:** 20 units
+
+**Project Commit ID:** Update after execution.
+
+**Tracker Commit ID:** Update after execution.
+
+**Project Push:** Pending verification.
+
+**Tracker Push:** Pending verification.
+
+**Final Status:** Update after final Git verification.
+
+---
+
+**Key Learning:** Item-wise consumption analysis helps procurement teams identify frequently issued materials, understand project demand and improve future purchasing and stock planning.
