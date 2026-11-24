@@ -1,0 +1,11 @@
+issue_id,issue_date,item_code,item_name,issued_qty,project
+ISS-001,2026-11-02,ITM-001,2TB WD Surveillance HDD,2,Project BB-001
+ISS-002,2026-11-05,ITM-002,4G Router,1,Project BB-001
+ISS-003,2026-11-08,ITM-001,2TB WD Surveillance HDD,3,Project BB-002
+ISS-004,2026-11-10,ITM-003,Lobby Camera,4,Project BB-002
+ISS-005,2026-11-12,ITM-002,4G Router,2,Project BB-003
+ISS-006,2026-11-15,ITM-004,DCUPS,1,Project BB-003
+ISS-007,2026-11-17,ITM-003,Lobby Camera,2,Project BB-004
+ISS-008,2026-11-19,ITM-001,2TB WD Surveillance HDD,1,Project BB-004
+ISS-009,2026-11-21,ITM-005,ATM Main Unit,1,Project BB-005
+ISS-010,2026-11-23,ITM-002,4G Router,3,Project BB-005
