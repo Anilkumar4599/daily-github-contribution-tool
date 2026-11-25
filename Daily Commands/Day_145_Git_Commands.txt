@@ -1,0 +1,118 @@
+# Day 145 – Git Commands and Project Execution History
+
+**Date:** 25-Nov-2026  
+**Domain:** Inventory Management  
+**Task:** Create a Minimum-Stock and Maximum-Stock Calculator
+
+## 1. Project Folder
+
+`Inventory/Day_145_Min_Max_Stock_Calculator/`
+
+## 2. Project Files
+
+- `stock_levels.csv`
+- `min_max_stock_calculator.py`
+- `README.md`
+
+## 3. Sample Inventory Data
+
+| Item | Current Stock | Minimum Stock | Maximum Stock |
+|---|---:|---:|---:|
+| 2TB WD Surveillance HDD | 8 | 10 | 30 |
+| 4G Router | 15 | 8 | 25 |
+| Lobby Camera | 5 | 5 | 20 |
+| DCUPS | 22 | 10 | 20 |
+| ATM Main Unit | 12 | 10 | 15 |
+
+## 4. Calculation Logic
+
+- Current Stock less than or equal to Minimum Stock: REORDER NOW.
+- Current Stock greater than Minimum and less than or equal to Maximum: STOCK OK.
+- Current Stock greater than Maximum: ABOVE MAXIMUM.
+
+Reorder Quantity = Maximum Stock − Current Stock when replenishment is required.
+
+## 5. Program Execution
+
+```bash
+python "Inventory/Day_145_Min_Max_Stock_Calculator/min_max_stock_calculator.py"
+```
+
+## 6. Verified Results
+
+- Total items checked: 5
+- Items requiring reorder: 2
+- HDD suggested reorder: 22 units
+- Lobby Camera suggested reorder: 15 units
+- Total suggested reorder: 37 units
+
+All five sample inventory calculations were verified successfully.
+
+## 7. Project Git Commands
+
+```bash
+git status
+
+git add "Inventory/Day_145_Min_Max_Stock_Calculator/stock_levels.csv"
+
+git add "Inventory/Day_145_Min_Max_Stock_Calculator/min_max_stock_calculator.py"
+
+git add "Inventory/Day_145_Min_Max_Stock_Calculator/README.md"
+
+git diff --cached --check
+
+git status
+
+git commit -m "Complete Day 145 min max stock calculator"
+
+git push origin main
+```
+
+**Verified project commit:** `35f5107`
+
+## 8. Daily Task Completion
+
+```bash
+python daily_github.py --complete
+
+python daily_github.py
+```
+
+Expected status: COMPLETED.
+
+## 9. Tracker Update Commands
+
+```bash
+git add "Daily Tracker 2026"
+
+git add "daily_log.json"
+
+git add "Daily Commands/Day_145_Git_Commands.txt"
+
+git diff --cached --check
+
+git status
+
+git commit -m "Complete Day 145 tracker update"
+
+git push origin main
+```
+
+## 10. Final GitHub Verification
+
+```bash
+git status
+
+git log -5 --oneline
+
+python daily_github.py
+```
+
+Expected final verification:
+
+- Branch: main
+- Local branch synchronized with origin/main
+- Working tree clean
+- Daily task #145: COMPLETED
+
+**Learning:** Inventory management, minimum and maximum stock levels, replenishment calculations, Python CSV processing, input validation and GitHub version control.
