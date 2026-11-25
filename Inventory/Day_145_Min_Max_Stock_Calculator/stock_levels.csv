@@ -1,0 +1,6 @@
+item_code,item_name,current_stock,minimum_stock,maximum_stock
+ITM-001,2TB WD Surveillance HDD,8,10,30
+ITM-002,4G Router,15,8,25
+ITM-003,Lobby Camera,5,5,20
+ITM-004,DCUPS,22,10,20
+ITM-005,ATM Main Unit,12,10,15
